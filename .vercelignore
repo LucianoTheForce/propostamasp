@@ -1,0 +1,22 @@
+node_modules - Copy
+app - Copy
+components - Copy
+contexts - Copy
+hooks - Copy
+lib - Copy
+.claude - Copy
+.next - Copy
+*.log
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+package - Copy.json
+package-lock - Copy.json
+next.config - Copy.mjs
+tailwind.config - Copy.ts
+tsconfig - Copy.json
+components - Copy.json
+- Copy.gitignore
+CLAUDE - Copy.md
