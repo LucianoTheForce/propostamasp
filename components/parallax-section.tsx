@@ -21,27 +21,36 @@ function ParallaxSectionComponent({
   direction = "up",
   overflow = "hidden",
 }: ParallaxSectionProps) {
-  const ref = useRef<HTMLDivElement>(null)
+  const containerRef = useRef<HTMLDivElement>(null)
   const [isMounted, setIsMounted] = useState(false)
 
   useEffect(() => {
-    setIsMounted(true)
+    // Wait for mount and ref to be ready
+    const timer = setTimeout(() => {
+      if (containerRef.current) {
+        setIsMounted(true)
+      }
+    }, 100)
+
+    return () => clearTimeout(timer)
   }, [])
 
-  // Always call hooks, but provide fallback values
+  // Always call hooks with valid config, even if not ready
   const { scrollYProgress } = useScroll({
-    target: ref,
+    target: containerRef,
     offset: ["start end", "end start"],
   })
 
   // Calculate parallax effect based on direction
   const factor = direction === "up" ? -1 : 1
+  // Always call useTransform to maintain hook order
   const y = useTransform(scrollYProgress, [0, 1], [0, 100 * speed * factor])
 
-  // If not mounted, render static version
+  // Render static version during SSR and initial mount
   if (!isMounted) {
     return (
-      <div 
+      <div
+        ref={containerRef}
         className={`relative ${overflow === "hidden" ? "overflow-hidden" : ""} ${className}`}
         suppressHydrationWarning
       >
@@ -51,11 +60,12 @@ function ParallaxSectionComponent({
   }
 
   return (
-    <div ref={ref} className={`relative ${overflow === "hidden" ? "overflow-hidden" : ""} ${className}`}>
-      <motion.div 
-        style={{ y }} 
+    <div ref={containerRef} className={`relative ${overflow === "hidden" ? "overflow-hidden" : ""} ${className}`}>
+      <motion.div
+        style={{ y }}
         className="w-full h-full"
         initial={{ y: 0 }}
+        suppressHydrationWarning
       >
         {children}
       </motion.div>

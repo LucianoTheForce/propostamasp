@@ -4,9 +4,9 @@ export const translations = {
     location: "BR - SP",
     
     // Header section
-    title: "BETANO",
-    subtitle: "RODA ROLETA",
-    proposalTitle: "Proposal — Digital Casino Experience at Sé Metro Station",
+    title: "NIKE × VASCO",
+    subtitle: "PROJEÇÃO",
+    proposalTitle: "Proposal — Projection Mapping at São Januário Stadium",
     scrollIndicator: "Scroll to explore",
     
     // Company info
@@ -101,13 +101,16 @@ export const translations = {
       "Realistic conversion: 0.5% flow → 1,700 registrations/day, potential 12,100 in seven days"
     ],
 
+    // Tagline
+    tagline: "GOING AGAINST THE TIDE MAKES US GIANTS",
+
     // Project section
     projectLabel: "CREATIVE CONCEPT",
-    projectTitle1: "DIGITAL CASINO",
-    projectTitle2: "OF PASSAGE",
-    projectTitle3: "SÉ STATION",
+    projectTitle1: "NIKE × VASCO",
+    projectTitle2: "PROJECTION",
+    projectTitle3: "SÃO JANUÁRIO",
     
-    projectScopeTitle: "Client: Betano | Location: Sé Metro Station | Flow: 338,000 daily | Operation: 6 hours | 72 daily draws",
+    projectScopeTitle: "Client: AKQA / Nike | Location: São Januário Stadium | Concept: Going against the tide makes us giants",
     projectScope: [
       "JCDecaux Panel (1h/day): giant roulette, 30s pre-rendered video - visual climax seen from entire station",
       "LED Booth Panel (6h): mirrors results and keeps the show spinning all day",
@@ -119,11 +122,55 @@ export const translations = {
       "Real-time prize distribution with immediate gratification"
     ],
     
+    // Creative Concept Section
+    visualConceptTitle: "Visual Concept",
+    visualConceptDescription: "The tide as a visual metaphor for the strength and resistance of Vasco supporters, sculpted in light and atmosphere on São Januário's historic wall.",
+    volumetricsLabel: "Volumetrics",
+    volumetricsDescription: "Fog and water particles creating physical density to the projected sea",
+    lightLaserLabel: "Light & Laser",
+    lightLaserDescription: "Beams drawing the force of waves against the architecture",
+    chromaticsLabel: "Chromatics",
+    chromaticsDescription: "Deep petroleum blue with foam whites in high contrast",
+    
+    containedTideTitle: "THE CONTAINED TIDE",
+    containedTideDescription: "We sculpt the tide with light, atmosphere and rhythm — energy advancing to the stadium wall and being contained. The facade remains protagonist. The film is simple, direct and powerful, with underground/analog aesthetics and supporter voiceover in 'sailor' tone.",
+    
+    imageSpecTitle: "IMAGE",
+    imageSpecDescription: "Dense blacks, petroleum blue and 'foam' whites; fine grain and high contrast; suggested sea (refractions, plates, discrete particles), never literal.",
+    cameraSpecTitle: "CAMERA & EDITING",
+    cameraSpecDescription: "Macro of optics → grazing on relief → symmetric hero; surgical movement; mechanical cuts; 24 fps and a single 48 fps shot at the apex.",
+    soundSpecTitle: "SOUND & VO",
+    soundSpecDescription: "Sub-harmonic bed inspired by the sea (not literal), dry percussion, silence before reveal; deep VO, few words, breathing pauses.",
+    
+    // Overview texts
+    projectionTitle: "PROJECTION",
+    monumentalTitle: "MONUMENTAL",
+    overviewDescription: "A unique visual experience that transforms São Januário's facade into a living canvas, where the strength of Vasco supporters meets Nike's technological innovation.",
+    overviewFeature1: "Precise 3D mapping of the stadium architecture for perfect projection",
+    overviewFeature2: "Volumetric effects with fog and laser creating physical depth",
+    overviewFeature3: "Cinematographic capture with drone for epic perspectives",
+    
+    // Technical Requirements
+    technicalRequirementsLabel: "TECHNICAL REQUIREMENTS",
+    productionSpecsTitle: "Production Specifications",
+    projectionSpecLabel: "PROJECTION",
+    projectionSpecDescription: "50K lumens projectors (with redundancy), high-end media servers, advanced architecture mapping.",
+    volumetrySpecLabel: "VOLUMETRY",
+    volumetrySpecDescription: "FogScreen/fog/water-mist with directional ventilation (wind control).",
+    laserLightSpecLabel: "LASER & LIGHT",
+    laserLightSpecDescription: "Beam drawing via DMX/timecode (targeted use for impact).",
+    energyRiggingSpecLabel: "ENERGY & RIGGING",
+    energyRiggingSpecDescription: "Dedicated generator; structures/protection for optics and flare/humidity blocking.",
+    cinemaCaptureSpecLabel: "CINEMA CAPTURE",
+    cinemaCaptureSpecDescription: "Direction/DP; ARRI/RED; 35/50/85 primes; gimbal/steadicam points; certified drone with licensed pilot.",
+    postProductionSpecLabel: "POST-PRODUCTION",
+    postProductionSpecDescription: "Editing, color grading, sound design and master.",
+
     // Creative concept
     creativeLabel: "CONCEPT",
-    creativeBrandTitle1: "INTERACTIVE",
-    creativeBrandTitle2: "GAMING",
-    creativeBrandConceptTitle: '"Roda Roleta Betano" - Metro Promotional Activation',
+    creativeBrandTitle1: "PROJECTION",
+    creativeBrandTitle2: "MAPPING",
+    creativeBrandConceptTitle: '"Ir Contra a Maré Nos Faz Gigantes" - Stadium Projection',
     creativeBrandConceptIntro: "Interactive promotional activation bringing casino excitement to metro environment:",
     creativeBrandConcept: [
       "EXCITEMENT - Real roulette emotion in safe, public metro setting",
@@ -132,20 +179,9 @@ export const translations = {
       "TECHNOLOGY - Digital innovation combining pre-recorded content with live interaction"
     ],
     
-    // Overview section
-    overviewLabel: "01 / GENERAL CONCEPT",
-    overviewTitle1: "Metro",
-    overviewTitle2: "Roulette Experience",
-    overviewDescription: "The Roda Roleta Betano transforms São Paulo's Sé Metro Station into an interactive gaming environment. This promotional activation brings the thrill of casino roulette through a detailed participant journey: active invitation by promoters with tablets, 1-minute registration at touchscreen totems, 5-minute roulette rounds with 30-second animations, immediate prize distribution, and continuous operation throughout the day.",
-    overviewFeatures: [
-      "Complete participant journey: attraction, registration, gaming, and prize collection",
-      "Visual impact booth with LED lights, sound system, and architectural design",
-      "5-minute cycle: 30s roulette animation + 4:30min registration period with countdown timer"
-    ],
-    
     // Client info
     clientLabel: "Client",
-    clientName: "Betano",
+    clientName: "AKQA / Nike",
     studioLabel: "Studio", 
     studioName: "THE FORCE",
     
@@ -274,7 +310,7 @@ export const translations = {
     // Approval
     approvalTitle: "Approval",
     location2: "São Paulo, Brazil",
-    client: "BETANO",
+    client: "NIKE × VASCO",
     theForceLabel: "THE FORCE",
     creativeDirector: "LUCIANO FERRAREZI - CREATIVE DIRECTOR",
     acceptProposal: "Accept Proposal",
@@ -293,9 +329,9 @@ export const translations = {
     location: "BR - SP",
     
     // Header section
-    title: "BETANO",
-    subtitle: "RODA ROLETA",
-    proposalTitle: "Proposta — Experiência de Cassino Digital na Estação Sé",
+    title: "NIKE × VASCO",
+    subtitle: "PROJEÇÃO",
+    proposalTitle: "Proposta — Projeção Mapeada no Estádio São Januário",
     scrollIndicator: "Role para explorar",
     
     // Company info
@@ -390,13 +426,16 @@ export const translations = {
       "Conversão realista: 0,5% do fluxo → 1.700 cadastros/dia, potencial de 12.100 em sete dias"
     ],
 
-    // Project section  
+    // Tagline
+    tagline: "IR CONTRA A MARÉ NOS FAZ GIGANTES",
+
+    // Project section
     projectLabel: "CONCEITO CRIATIVO",
-    projectTitle1: "CASSINO DIGITAL",
-    projectTitle2: "DE PASSAGEM",
-    projectTitle3: "ESTAÇÃO SÉ",
+    projectTitle1: "NIKE × VASCO",
+    projectTitle2: "PROJEÇÃO",
+    projectTitle3: "SÃO JANUÁRIO",
     
-    projectScopeTitle: "Cliente: Betano | Local: Estação Sé do Metrô | Fluxo: 338.000 diário | Operação: 6 horas | 72 sorteios diários",
+    projectScopeTitle: "Cliente: AKQA / Nike | Local: Estádio São Januário | Conceito: Ir contra a maré nos faz gigantes",
     projectScope: [
       "Painel JCDecaux (1h/dia): roleta gigante, vídeo pré-renderizado de 30s - clímax visual visto de toda a estação",
       "Painel LED do estande (6h): espelha o resultado e mantém o show girando o dia todo",
@@ -408,11 +447,55 @@ export const translations = {
       "Distribuição de prêmios em tempo real com gratificação imediata"
     ],
     
+    // Creative Concept Section
+    visualConceptTitle: "Conceito Visual",
+    visualConceptDescription: "A maré como metáfora visual da força e resistência do torcedor vascaíno, esculpida em luz e atmosfera no paredão histórico de São Januário.",
+    volumetricsLabel: "Volumetria",
+    volumetricsDescription: "Névoa e partículas de água criando densidade física ao mar projetado",
+    lightLaserLabel: "Luz & Laser",
+    lightLaserDescription: "Feixes desenhando a força das ondas contra a arquitetura",
+    chromaticsLabel: "Cromática",
+    chromaticsDescription: "Azul-petróleo profundo com brancos espuma em alto contraste",
+    
+    containedTideTitle: "A MARÉ CONTIDA",
+    containedTideDescription: "Esculpimos a maré com luz, atmosfera e ritmo — energia que avança até o paredão do estádio e é contida. A fachada permanece protagonista. O filme é simples, direto e poderoso, com estética underground/analógica e voice over de torcedor em tom de 'marinheiro'.",
+    
+    imageSpecTitle: "IMAGEM",
+    imageSpecDescription: "Pretos densos, azul-petróleo e brancos 'espuma'; grão fino e alto contraste; mar sugerido (refrações, placas, partículas discretas), nunca literal.",
+    cameraSpecTitle: "CÂMERA & EDIÇÃO",
+    cameraSpecDescription: "Macro da ótica → rasante no relevo → hero simétrico; movimento cirúrgico; cortes mecânicos; 24 fps e um único plano a 48 fps no ápice.",
+    soundSpecTitle: "SOM & VO",
+    soundSpecDescription: "Cama sub-harmônica inspirada no mar (não literal), percussão seca, silêncio antes do reveal; VO grave, poucas palavras, pausas que respiram.",
+    
+    // Overview texts
+    projectionTitle: "PROJEÇÃO",
+    monumentalTitle: "MONUMENTAL",
+    overviewDescription: "Uma experiência visual única que transforma a fachada de São Januário em uma tela viva, onde a força da torcida vascaína encontra a inovação tecnológica da Nike.",
+    overviewFeature1: "Mapeamento 3D preciso da arquitetura do estádio para projeção perfeita",
+    overviewFeature2: "Efeitos volumétricos com névoa e laser criando profundidade física",
+    overviewFeature3: "Captação cinematográfica com drone para perspectivas épicas",
+    
+    // Technical Requirements
+    technicalRequirementsLabel: "REQUISITOS TÉCNICOS",
+    productionSpecsTitle: "Especificações de Produção",
+    projectionSpecLabel: "PROJEÇÃO",
+    projectionSpecDescription: "Projetores de 50K lumens (com redundância), media servers high-end, mapeamento avançado de arquitetura.",
+    volumetrySpecLabel: "VOLUMETRIA",
+    volumetrySpecDescription: "FogScreen/névoa/water-mist com ventilação direcional (controle de vento).",
+    laserLightSpecLabel: "LASER & LUZ",
+    laserLightSpecDescription: "Desenho de feixes por DMX/timecode (uso pontual para o impacto).",
+    energyRiggingSpecLabel: "ENERGIA & RIGGING",
+    energyRiggingSpecDescription: "Gerador dedicado; estruturas/proteções para óptica e bloqueio de flare/umidade.",
+    cinemaCaptureSpecLabel: "CAPTAÇÃO CINEMA",
+    cinemaCaptureSpecDescription: "Direção/DP; ARRI/RED; primes 35/50/85; gimbal/steadicam pontuais; drone homologado com piloto habilitado.",
+    postProductionSpecLabel: "PÓS-PRODUÇÃO",
+    postProductionSpecDescription: "Edição, color grading, sound design e master.",
+
     // Creative concept
     creativeLabel: "CONCEITO",
-    creativeBrandTitle1: "ATIVAÇÃO",
-    creativeBrandTitle2: "INTERATIVA",
-    creativeBrandConceptTitle: '"Roda Roleta Betano" - Ativação Promocional no Metrô',
+    creativeBrandTitle1: "PROJEÇÃO",
+    creativeBrandTitle2: "MAPEADA",
+    creativeBrandConceptTitle: '"Ir Contra a Maré Nos Faz Gigantes" - Projeção no Estádio',
     creativeBrandConceptIntro: "Ativação promocional interativa que traz a emoção do cassino ao metrô:",
     creativeBrandConcept: [
       "EMOÇÃO - Emoção real da roleta em ambiente seguro e público do metrô",
@@ -421,20 +504,9 @@ export const translations = {
       "TECNOLOGIA - Inovação digital combinando conteúdo pré-gravado com interação ao vivo"
     ],
     
-    // Overview section
-    overviewLabel: "01 / CONCEITO GERAL",
-    overviewTitle1: "Experiência de",
-    overviewTitle2: "Roleta no Metrô",
-    overviewDescription: "A Roda Roleta Betano transforma a Estação Sé do Metrô de São Paulo em um ambiente de gaming interativo. A ativação traz a emoção da roleta através de uma jornada detalhada: convite ativo por promotores com tablets, cadastro de 1 minuto em totens touchscreen, rodadas de roleta de 5 minutos com animações de 30 segundos, distribuição imediata de prêmios e operação contínua durante todo o dia.",
-    overviewFeatures: [
-      "Jornada completa do participante: atração, cadastro, jogo e coleta de prêmios",
-      "Estande de impacto visual com luzes LED, sistema de som e design arquitetônico",
-      "Ciclo de 5 minutos: 30s animação da roleta + 4:30min período de cadastro com cronometro"
-    ],
-    
     // Client info
     clientLabel: "Cliente",
-    clientName: "Betano", 
+    clientName: "AKQA / Nike",
     studioLabel: "Estúdio",
     studioName: "THE FORCE",
     
@@ -563,7 +635,7 @@ export const translations = {
     // Approval
     approvalTitle: "Aprovação",
     location2: "São Paulo, Brasil",
-    client: "BETANO",
+    client: "NIKE × VASCO",
     theForceLabel: "THE FORCE", 
     creativeDirector: "LUCIANO FERRAREZI - DIREÇÃO CRIATIVA E TÉCNICA",
     acceptProposal: "Aceitar Proposta",

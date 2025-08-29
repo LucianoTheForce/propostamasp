@@ -28,9 +28,8 @@ import { DynamicText } from "@/components/dynamic-text"
 import { LanguageToggle } from "@/components/language-toggle"
 import { useLanguage } from "@/contexts/language-context"
 import { InteractiveLogoHero } from "@/components/interactive-logo-hero"
-import { BetanoTables } from "@/components/betano-tables"
-import { EnhancedProposal } from "@/components/enhanced-proposal"
-import { BudgetTable } from "@/components/budget-table"
+// Remove Betano components and add projection component
+import { ProjectionBudget } from "@/components/projection-budget"
 
 
 
@@ -192,7 +191,7 @@ export default function Home() {
                         }}
                       >
                         <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                          {t('title')}
+                          NIKE × VASCO
                         </AdvancedTextAnimation>
                       </div>
                       <div
@@ -211,7 +210,7 @@ export default function Home() {
                           staggerChildren={0.03}
                           letterSpacing="-0.03em"
                         >
-                          {t('subtitle')}
+                          PROJEÇÃO
                         </AdvancedTextAnimation>
                         <span className="text-xs align-top relative" style={{ top: "0.5rem", marginLeft: "-0.1em" }}>®</span>
                       </div>
@@ -225,7 +224,7 @@ export default function Home() {
               <div className="h-1 w-24 bg-black/50 rounded-full mb-8"></div>
               <h3 className="heading-large font-sans text-pretty">
                 <AdvancedTextAnimation type="reveal" delay={0.8} letterSpacing="-0.02em">
-                  {t('proposalTitle')}
+                  {t('tagline')}
                 </AdvancedTextAnimation>
               </h3>
             </div>
@@ -252,9 +251,9 @@ export default function Home() {
             <div className="mb-16 caption">
               <div className="flex flex-col md:flex-row justify-between items-start mb-4">
                 <div className="mb-4 md:mb-0">
-                  <p className="font-sans">{t('companyDescription')}</p>
+                  <p className="font-sans">©THE FORCE creates immersive design + visual experiences</p>
                   <p className="font-sans mt-1">
-                    {t('clientList')}
+                    for brands : Nike, Coca-Cola, Heineken, Budweiser, Itaú, Ambev, Santander, Stella Artois [...]
                   </p>
                 </div>
                 <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
@@ -276,8 +275,14 @@ export default function Home() {
             <div className="my-24 relative z-10">
               <h1 className="font-sans text-4xl md:text-6xl lg:text-8xl leading-tight tracking-tight">
                 <DynamicText
-                  prefix={t('dynamicPrefix')}
-                  phrases={t('dynamicPhrases') as any}
+                  prefix="©THE FORCE creates "
+                  phrases={[
+                    "immersive brand experiences.",
+                    "cutting-edge visual identities.",
+                    "revolutionary stadium projections.",
+                    "memorable event productions.",
+                    "innovative spatial narratives."
+                  ]}
                   interval={5000}
                 />
               </h1>
@@ -287,10 +292,16 @@ export default function Home() {
 
             <div className="mt-[40vh] mb-8 relative z-10">
               <p className="body-large font-sans max-w-3xl mb-4">
-                {t('aboutDescription1')}
+                THE FORCE is an agency and production company that combines art and technology to create
+                expanded narratives and surprising experiences. We specialize in projection mapping,
+                immersive environments, and cutting-edge event production that transforms brands into
+                unforgettable experiences.
               </p>
               <p className="body-large font-sans max-w-3xl">
-                {t('aboutDescription2')}
+                For the Nike × Vasco activation, we're bringing stadium projection to new heights.
+                "Ir Contra a Maré Nos Faz Gigantes" — a visual spectacle that transforms São Januário's
+                facade into a living canvas where the force of the Vasco supporters meets Nike's
+                innovative spirit.
               </p>
             </div>
 
@@ -322,17 +333,17 @@ export default function Home() {
                 <div className="mb-6">
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      {t('projectTitle1')}
+                      NIKE × VASCO
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.1} letterSpacing="-0.03em">
-                      {t('projectTitle2')}
+                      PROJEÇÃO EM
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.2} letterSpacing="-0.03em">
-                      {t('projectTitle3')}
+                      SÃO JANUÁRIO
                     </AdvancedTextAnimation>
                   </h2>
                 </div>
@@ -341,14 +352,28 @@ export default function Home() {
 
               <div className="md:col-span-8 section-content">
                 <div className="mb-8">
-                  <h3 className="heading-medium font-sans mb-4 text-white">{t('projectScopeTitle')}</h3>
+                  <h3 className="heading-medium font-sans mb-4 text-white">{language === 'pt' ? 'Escopo do Projeto' : 'Project Scope'}</h3>
                   <ul className="space-y-3 text-white/80 body-medium font-sans">
-                    {(t('projectScope') as string[]).map((item, index) => (
-                      <li key={index} className="flex items-start">
-                        <span className="text-white mr-3 mt-1">+</span>
-                        <span>{item}</span>
-                      </li>
-                    ))}
+                    <li className="flex items-start">
+                      <span className="text-white mr-3 mt-1">+</span>
+                      <span>{language === 'pt' ? 'Projeção mapeada na fachada do estádio São Januário' : 'Projection mapping on São Januário stadium facade'}</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-white mr-3 mt-1">+</span>
+                      <span>{language === 'pt' ? 'Criação de experiência imersiva com volumetria e lasers' : 'Immersive experience creation with volumetrics and lasers'}</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-white mr-3 mt-1">+</span>
+                      <span>{language === 'pt' ? 'Captação cinematográfica profissional com drone' : 'Professional cinematographic capture with drone'}</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-white mr-3 mt-1">+</span>
+                      <span>{language === 'pt' ? 'Produção de filme com cortes para múltiplas plataformas' : 'Film production with cuts for multiple platforms'}</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-white mr-3 mt-1">+</span>
+                      <span>{language === 'pt' ? 'Pós-produção com VFX e sound design' : 'Post-production with VFX and sound design'}</span>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -366,12 +391,12 @@ export default function Home() {
                 <div className="mb-6">
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      {t('creativeBrandTitle1')}
+                      IR CONTRA A MARÉ
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.1} letterSpacing="-0.03em">
-                      {t('creativeBrandTitle2')}
+                      NOS FAZ GIGANTES
                     </AdvancedTextAnimation>
                   </h2>
                 </div>
@@ -381,23 +406,30 @@ export default function Home() {
               <div className="md:col-span-8 section-content">
                 <div className="mb-8">
                   <h3 className="heading-medium font-sans mb-4 text-white">
-                    {t('creativeBrandConceptTitle')}
+                    {language === 'pt' ? 'Conceito Visual' : 'Visual Concept'}
                   </h3>
                   <p className="text-white/80 mb-6 body-medium font-sans">
-                    {t('creativeBrandConceptIntro')}
+                    {t('visualConceptDescription')}
                   </p>
                   <ul className="space-y-3 text-white/80 body-medium font-sans">
-                    {(t('creativeBrandConcept') as string[]).map((item, index) => {
-                      const [title, description] = item.split(' - ');
-                      return (
-                        <li key={index} className="flex items-start">
-                          <span className="text-white mr-3 mt-1">+</span>
-                          <span>
-                            <strong className="text-white">{title}</strong> - {description}
-                          </span>
-                        </li>
-                      );
-                    })}
+                    <li className="flex items-start">
+                      <span className="text-white mr-3 mt-1">+</span>
+                      <span>
+                        <strong className="text-white">{t('volumetricsLabel')}</strong> - {t('volumetricsDescription')}
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-white mr-3 mt-1">+</span>
+                      <span>
+                        <strong className="text-white">{t('lightLaserLabel')}</strong> - {t('lightLaserDescription')}
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-white mr-3 mt-1">+</span>
+                      <span>
+                        <strong className="text-white">{t('chromaticsLabel')}</strong> - {t('chromaticsDescription')}
+                      </span>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -413,12 +445,12 @@ export default function Home() {
                 <div className="mb-6">
                   <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl leading-none tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      {t('overviewTitle1')}
+                      PROJEÇÃO
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl leading-none tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.2} letterSpacing="-0.03em">
-                      {t('overviewTitle2')}
+                      MONUMENTAL
                     </AdvancedTextAnimation>
                   </h2>
                 </div>
@@ -436,7 +468,7 @@ export default function Home() {
                     <span className="text-white mr-3 mt-1">+</span>
                     <div className="body-medium text-white/70 font-sans">
                       <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                        {t('overviewFeatures')[0]}
+                        {t('overviewFeature1')}
                       </AdvancedTextAnimation>
                     </div>
                   </div>
@@ -444,7 +476,7 @@ export default function Home() {
                     <span className="text-white mr-3 mt-1">+</span>
                     <div className="body-medium text-white/70 font-sans">
                       <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                        {t('overviewFeatures')[1]}
+                        {t('overviewFeature2')}
                       </AdvancedTextAnimation>
                     </div>
                   </div>
@@ -452,7 +484,7 @@ export default function Home() {
                     <span className="text-white mr-3 mt-1">+</span>
                     <div className="body-medium text-white/70 font-sans">
                       <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                        {t('overviewFeatures')[2]}
+                        {t('overviewFeature3')}
                       </AdvancedTextAnimation>
                     </div>
                   </div>
@@ -465,7 +497,7 @@ export default function Home() {
                 <div className="caption text-white/60 mb-2">{t('clientLabel')}</div>
                 <div className="heading-medium font-sans">
                   <AdvancedTextAnimation delay={0.2} type="slide" direction="up">
-                    {t('clientName')}
+                    AKQA / NIKE
                   </AdvancedTextAnimation>
                 </div>
               </MagneticElement>
@@ -482,7 +514,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Enhanced Proposal Section */}
+        {/* Creative Concept Section */}
         <section
           id="enhanced"
           ref={enhancedRef}
@@ -495,31 +527,42 @@ export default function Home() {
 
           <div className="container mx-auto px-6 sm:px-8 md:px-6 relative z-10">
             <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start mb-12">
-              <div className="md:col-span-4 section-title-2025-modern">
+              <div className="md:col-span-12 section-title-2025-modern">
                 <div className="flex items-center gap-3 mb-4">
-                  <Icon type="concept" className="text-white" />
-                  <div className="caption text-white/60 glitch-text">CONCEITO ESTRATÉGICO</div>
+                  <Icon type="overview" className="text-white" />
+                  <div className="caption text-white/60 glitch-text">{t('projectLabel')}</div>
                 </div>
                 <div className="display-medium font-sans mb-6">
                   <AdvancedTextAnimation tag="h2" type="word" letterSpacing="-0.03em">
-                    Visão Completa da Ativação
+                    {language === 'pt' ? 'A MARÉ CONTIDA' : 'THE CONTAINED TIDE'}
                   </AdvancedTextAnimation>
                 </div>
-                <div className="body-large text-white/80 font-sans text-pretty">
+                <div className="body-large text-white/80 font-sans text-pretty max-w-4xl">
                   <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                    Estratégia, mecânica operacional e cronograma detalhado para transformar a Estação Sé em um ambiente de gaming de alta conversão.
+                    {t('containedTideDescription')}
                   </AdvancedTextAnimation>
                 </div>
-              </div>
-
-              <div className="md:col-span-8">
-                <EnhancedProposal />
+                
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+                  <div className="p-6 bg-white/5 rounded-lg">
+                    <h4 className="font-bold mb-3">{t('imageSpecTitle')}</h4>
+                    <p className="text-sm text-white/70">{t('imageSpecDescription')}</p>
+                  </div>
+                  <div className="p-6 bg-white/5 rounded-lg">
+                    <h4 className="font-bold mb-3">{t('cameraSpecTitle')}</h4>
+                    <p className="text-sm text-white/70">{t('cameraSpecDescription')}</p>
+                  </div>
+                  <div className="p-6 bg-white/5 rounded-lg">
+                    <h4 className="font-bold mb-3">{t('soundSpecTitle')}</h4>
+                    <p className="text-sm text-white/70">{t('soundSpecDescription')}</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Tables Section - Betano Data */}
+        {/* Technical Requirements Section */}
         <section
           id="tables"
           ref={tablesRef}
@@ -531,26 +574,42 @@ export default function Home() {
           </div>
 
           <div className="container mx-auto px-6 sm:px-8 md:px-6 relative z-10">
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start mb-12">
-              <div className="md:col-span-4 section-title-2025-modern">
-                <div className="flex items-center gap-3 mb-4">
-                  <Icon type="data" className="text-white" />
-                  <div className="caption text-white/60 glitch-text">DADOS OPERACIONAIS</div>
-                </div>
-                <div className="display-medium font-sans mb-6">
-                  <AdvancedTextAnimation tag="h2" type="word" letterSpacing="-0.03em">
-                    Métricas e Planejamento
-                  </AdvancedTextAnimation>
-                </div>
-                <div className="body-large text-white/80 font-sans text-pretty">
-                  <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                    Dados detalhados sobre capacidade operacional, fluxo de participantes e distribuição de brindes para a ativação.
-                  </AdvancedTextAnimation>
-                </div>
+            <div className="mb-12">
+              <div className="flex items-center gap-3 mb-4">
+                <Icon type="overview" className="text-white" />
+                <div className="caption text-white/60 glitch-text">{t('technicalRequirementsLabel')}</div>
               </div>
+              <div className="display-medium font-sans mb-6">
+                <AdvancedTextAnimation tag="h2" type="word" letterSpacing="-0.03em">
+                  {t('productionSpecsTitle')}
+                </AdvancedTextAnimation>
+              </div>
+            </div>
 
-              <div className="md:col-span-8">
-                <BetanoTables />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
+                <h4 className="font-bold mb-3">{t('projectionSpecLabel')}</h4>
+                <p className="text-sm text-white/70">{t('projectionSpecDescription')}</p>
+              </div>
+              <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
+                <h4 className="font-bold mb-3">{t('volumetrySpecLabel')}</h4>
+                <p className="text-sm text-white/70">{t('volumetrySpecDescription')}</p>
+              </div>
+              <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
+                <h4 className="font-bold mb-3">{t('laserLightSpecLabel')}</h4>
+                <p className="text-sm text-white/70">{t('laserLightSpecDescription')}</p>
+              </div>
+              <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
+                <h4 className="font-bold mb-3">{t('energyRiggingSpecLabel')}</h4>
+                <p className="text-sm text-white/70">{t('energyRiggingSpecDescription')}</p>
+              </div>
+              <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
+                <h4 className="font-bold mb-3">{t('cinemaCaptureSpecLabel')}</h4>
+                <p className="text-sm text-white/70">{t('cinemaCaptureSpecDescription')}</p>
+              </div>
+              <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
+                <h4 className="font-bold mb-3">{t('postProductionSpecLabel')}</h4>
+                <p className="text-sm text-white/70">{t('postProductionSpecDescription')}</p>
               </div>
             </div>
           </div>
@@ -576,38 +635,93 @@ export default function Home() {
                 </div>
                 <div className="display-medium font-sans mb-6">
                   <AdvancedTextAnimation tag="h2" type="word" letterSpacing="-0.03em">
-                    {t('deliverablesTitle')}
+                    {language === 'pt' ? 'Entregáveis' : 'Deliverables'}
                   </AdvancedTextAnimation>
                 </div>
                 <div className="body-large text-white/80 font-sans text-pretty">
                   <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                    {t('deliverablesDescription')}
+                    {language === 'pt' ? 'Elementos completos do projeto de projeção em São Januário' : 'Complete projection project elements for São Januário'}
                   </AdvancedTextAnimation>
                 </div>
               </div>
 
               <div className="md:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-4 section-content">
-                {(t('deliverablesList') as any[]).map((item, index) => (
-                  <MagneticElement key={index} className="p-6 group hover-lift border border-white/10">
-                    <div className="caption text-white/60 mb-4">{item.number}</div>
-                    <div className="heading-medium font-sans mb-2 group-hover:text-white transition-colors">
-                      <AdvancedTextAnimation
-                        tag="div"
-                        delay={0.1 * index}
-                        fontWeight="bold"
-                        type="slide"
-                        direction="up"
-                      >
-                        {item.title}
-                      </AdvancedTextAnimation>
-                    </div>
-                    <div className="body-medium text-white/70 font-sans text-pretty">
-                      <AdvancedTextAnimation tag="p" delay={0.1 * index + 0.1} type="fade">
-                        {item.description}
-                      </AdvancedTextAnimation>
-                    </div>
-                  </MagneticElement>
-                ))}
+                <MagneticElement className="p-6 group hover-lift border border-white/10">
+                  <div className="caption text-white/60 mb-4">01</div>
+                  <div className="heading-medium font-sans mb-2 group-hover:text-white transition-colors">
+                    <AdvancedTextAnimation
+                      tag="div"
+                      delay={0.1}
+                      fontWeight="bold"
+                      type="slide"
+                      direction="up"
+                    >
+                      {language === 'pt' ? 'Projeção ao Vivo' : 'Live Projection'}
+                    </AdvancedTextAnimation>
+                  </div>
+                  <div className="body-medium text-white/70 font-sans text-pretty">
+                    <AdvancedTextAnimation tag="p" delay={0.2} type="fade">
+                      {language === 'pt' ? 'Execução da projeção mapeada na fachada de São Januário com toda infraestrutura técnica' : 'Projection mapping execution on São Januário facade with complete technical infrastructure'}
+                    </AdvancedTextAnimation>
+                  </div>
+                </MagneticElement>
+                <MagneticElement className="p-6 group hover-lift border border-white/10">
+                  <div className="caption text-white/60 mb-4">02</div>
+                  <div className="heading-medium font-sans mb-2 group-hover:text-white transition-colors">
+                    <AdvancedTextAnimation
+                      tag="div"
+                      delay={0.2}
+                      fontWeight="bold"
+                      type="slide"
+                      direction="up"
+                    >
+                      {language === 'pt' ? 'Filme de Lançamento' : 'Launch Film'}
+                    </AdvancedTextAnimation>
+                  </div>
+                  <div className="body-medium text-white/70 font-sans text-pretty">
+                    <AdvancedTextAnimation tag="p" delay={0.3} type="fade">
+                      {language === 'pt' ? 'Filme de 45" + cortes de 15" e 6" adaptados para formatos 16:9, 9:16 e 1:1' : '45" film + 15" and 6" cuts adapted for 16:9, 9:16 and 1:1 formats'}
+                    </AdvancedTextAnimation>
+                  </div>
+                </MagneticElement>
+                <MagneticElement className="p-6 group hover-lift border border-white/10">
+                  <div className="caption text-white/60 mb-4">03</div>
+                  <div className="heading-medium font-sans mb-2 group-hover:text-white transition-colors">
+                    <AdvancedTextAnimation
+                      tag="div"
+                      delay={0.3}
+                      fontWeight="bold"
+                      type="slide"
+                      direction="up"
+                    >
+                      {language === 'pt' ? 'Fotografia Hero' : 'Hero Photography'}
+                    </AdvancedTextAnimation>
+                  </div>
+                  <div className="body-medium text-white/70 font-sans text-pretty">
+                    <AdvancedTextAnimation tag="p" delay={0.4} type="fade">
+                      {language === 'pt' ? 'Capturas hero e stills da projeção para uso em campanhas e mídia' : 'Hero captures and projection stills for campaign and media use'}
+                    </AdvancedTextAnimation>
+                  </div>
+                </MagneticElement>
+                <MagneticElement className="p-6 group hover-lift border border-white/10">
+                  <div className="caption text-white/60 mb-4">04</div>
+                  <div className="heading-medium font-sans mb-2 group-hover:text-white transition-colors">
+                    <AdvancedTextAnimation
+                      tag="div"
+                      delay={0.4}
+                      fontWeight="bold"
+                      type="slide"
+                      direction="up"
+                    >
+                      Behind the Scenes
+                    </AdvancedTextAnimation>
+                  </div>
+                  <div className="body-medium text-white/70 font-sans text-pretty">
+                    <AdvancedTextAnimation tag="p" delay={0.5} type="fade">
+                      {language === 'pt' ? 'Documentação do processo criativo e técnico (30–60")' : 'Creative and technical process documentation (30–60")'}
+                    </AdvancedTextAnimation>
+                  </div>
+                </MagneticElement>
               </div>
             </div>
           </div>
@@ -628,21 +742,21 @@ export default function Home() {
             <div className="mb-12">
               <div className="flex items-center gap-3 mb-4">
                 <Icon type="pricing" className="text-white" />
-                <div className="caption text-white/60 glitch-text">INVESTIMENTO</div>
+                <div className="caption text-white/60 glitch-text">{language === 'pt' ? 'INVESTIMENTO' : 'INVESTMENT'}</div>
               </div>
               <div className="display-medium font-sans mb-6">
                 <AdvancedTextAnimation tag="h2" type="word" letterSpacing="-0.03em">
-                  Planilha de Custos Detalhada
+                  {language === 'pt' ? 'Investimento — 4 Cenários' : 'Investment — 4 Scenarios'}
                 </AdvancedTextAnimation>
               </div>
               <div className="body-large text-white/80 font-sans text-pretty max-w-3xl">
                 <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                  Transparência total nos investimentos necessários para a ativação da Betano na Estação Sé
+                  {language === 'pt' ? 'Opções técnicas detalhadas para a projeção em São Januário, desde a experiência premium até VFX 100% em pós' : 'Detailed technical options for São Januário projection, from premium experience to 100% post-production VFX'}
                 </AdvancedTextAnimation>
               </div>
             </div>
 
-            <BudgetTable />
+            <ProjectionBudget />
           </div>
         </section>
 
@@ -658,127 +772,60 @@ export default function Home() {
           </div>
 
           <div className="container mx-auto px-6 sm:px-8 md:px-6 relative z-10">
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
-              <div className="md:col-span-4 section-title-2025-modern">
-                <div className="flex items-center gap-3 mb-4">
-                  <Icon type="pricing" className="text-white" />
-                  <div className="caption text-white/60 glitch-text">{t('pricingLabel')}</div>
-                </div>
-                <div className="display-medium font-sans mb-6">
-                  <AdvancedTextAnimation tag="h2" type="word" letterSpacing="-0.03em">
-                    {t('pricingTitle')}
-                  </AdvancedTextAnimation>
-                </div>
-                <div className="body-large text-white/80 font-sans text-pretty">
-                  <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                    {t('pricingDescription')}
-                  </AdvancedTextAnimation>
-                </div>
-              </div>
-
-              <div className="md:col-span-8 section-content">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <MagneticElement
-                    className="p-8 border border-white/20 transition-all duration-300"
-                    glowEffect={false}
-                    strength={40}
-                  >
-                    <div className="mb-6">
-                      <div className="caption text-white/60 mb-2">{t('proposal1Label')}</div>
-                      <h3 className="heading-medium font-sans mb-4">{t('proposal1Title')}</h3>
-                      <div className="space-y-3 text-white/80 body-medium font-sans mb-6">
-                        {(t('proposal1Items') as string[]).map((item, index) => (
-                          <div key={index} className="flex items-start">
-                            <span className="text-white mr-3 mt-1">+</span>
-                            <span>{item}</span>
-                          </div>
-                        ))}
-                      </div>
-                      <div className="text-right">
-                        <div className="heading-large font-mono number-accent">{t('proposal1Price')}</div>
-                      </div>
-                    </div>
-                  </MagneticElement>
-
-                  <MagneticElement
-                    className="p-8 border border-white/20 transition-all duration-300"
-                    glowEffect={false}
-                    strength={40}
-                  >
-                    <div className="mb-6">
-                      <div className="caption text-white/60 mb-2">{t('proposal2Label')}</div>
-                      <h3 className="heading-medium font-sans mb-4">{t('proposal2Title')}</h3>
-                      <div className="caption text-white/60 mb-4">{t('proposal2Subtitle')}</div>
-                      <div className="space-y-3 text-white/80 body-medium font-sans mb-6">
-                        {(t('proposal2Items') as string[]).map((item, index) => (
-                          <div key={index} className="flex items-start">
-                            <span className="text-white mr-3 mt-1">+</span>
-                            <span>{item}</span>
-                          </div>
-                        ))}
-                      </div>
-                      <div className="text-right">
-                        <div className="heading-large font-mono number-accent">{t('proposal2Price')}</div>
-                      </div>
-                    </div>
-                  </MagneticElement>
-                </div>
-
-                <div className="mt-12 pt-8 border-t border-white/10">
-                  <div className="mb-8">
-                    <div className="caption text-white/60 mb-2">{t('investmentOptionsTitle')}</div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-                      <div className="flex justify-between items-center pb-2">
-                        <span className="body-medium text-white/80 font-sans">
-                          <AdvancedTextAnimation type="fade">{t('investmentOption1')}</AdvancedTextAnimation>
-                        </span>
-                        <span className="body-medium font-mono number-accent">{t('proposal1Price')}</span>
-                      </div>
-                      <div className="flex justify-between items-center pb-2">
-                        <span className="body-medium text-white/80 font-sans">
-                          <AdvancedTextAnimation delay={0.2} type="fade">
-                            {t('investmentOption2')}
-                          </AdvancedTextAnimation>
-                        </span>
-                        <span className="body-medium font-mono number-accent">{t('proposal2Price')}</span>
-                      </div>
-                      <div className="flex justify-between items-center pb-2">
-                        <span className="body-medium text-white/80 font-sans">
-                          <AdvancedTextAnimation delay={0.4} type="fade">
-                            {t('investmentComplete')}
-                          </AdvancedTextAnimation>
-                        </span>
-                        <span className="body-medium font-mono number-accent">{t('completePackagePrice')}</span>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div className="p-6">
+            <div className="grid grid-cols-1 items-start">
+              <div className="section-content">
+                <div className="p-6 bg-white/5 rounded-lg">
                   <div className="heading-medium font-sans mb-4">
                     <AdvancedTextAnimation tag="h3" fontWeight="bold" type="slide" direction="up">
-                      {t('methodologyTitle')}
+                      {language === 'pt' ? 'Próximos Passos' : 'Next Steps'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/80 mb-6 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" type="fade">
-                      {t('methodologyDescription')}
+                      {language === 'pt' ? 'Processo estruturado para execução do projeto de projeção em São Januário' : 'Structured process for São Januário projection project execution'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="space-y-4 mb-6">
-                    {(t('methodologySteps') as string[]).map((step, index) => (
-                      <div key={index} className="flex items-start hover-lift">
-                        <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">
-                          {(index + 1).toString().padStart(2, "0")}
-                        </div>
-                        <div className="body-medium text-white/80 font-sans">
-                          <AdvancedTextAnimation delay={0.1 * (index + 1)} type="fade">
-                            {step}
-                          </AdvancedTextAnimation>
-                        </div>
+                    <div className="flex items-start hover-lift">
+                      <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">01</div>
+                      <div className="body-medium text-white/80 font-sans">
+                        <AdvancedTextAnimation delay={0.1} type="fade">
+                          {language === 'pt' ? 'Escolha do caminho técnico (A/B/C/D) e ajustes de escopo' : 'Technical path selection (A/B/C/D) and scope adjustments'}
+                        </AdvancedTextAnimation>
                       </div>
-                    ))}
+                    </div>
+                    <div className="flex items-start hover-lift">
+                      <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">02</div>
+                      <div className="body-medium text-white/80 font-sans">
+                        <AdvancedTextAnimation delay={0.2} type="fade">
+                          {language === 'pt' ? 'Aprovação do roteiro/VO e frames-chave para o filme' : 'Script/VO and key frames approval for the film'}
+                        </AdvancedTextAnimation>
+                      </div>
+                    </div>
+                    <div className="flex items-start hover-lift">
+                      <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">03</div>
+                      <div className="body-medium text-white/80 font-sans">
+                        <AdvancedTextAnimation delay={0.3} type="fade">
+                          {language === 'pt' ? 'Fechamento de fornecedores e permissões' : 'Supplier agreements and permissions'}
+                        </AdvancedTextAnimation>
+                      </div>
+                    </div>
+                    <div className="flex items-start hover-lift">
+                      <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">04</div>
+                      <div className="body-medium text-white/80 font-sans">
+                        <AdvancedTextAnimation delay={0.4} type="fade">
+                          {language === 'pt' ? 'Testes controlados e filmagem' : 'Controlled testing and filming'}
+                        </AdvancedTextAnimation>
+                      </div>
+                    </div>
+                    <div className="flex items-start hover-lift">
+                      <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">05</div>
+                      <div className="body-medium text-white/80 font-sans">
+                        <AdvancedTextAnimation delay={0.5} type="fade">
+                          {language === 'pt' ? 'Pós e entrega dos masters' : 'Post-production and masters delivery'}
+                        </AdvancedTextAnimation>
+                      </div>
+                    </div>
                   </div>
                   <MagneticElement>
                     <button
@@ -823,19 +870,47 @@ export default function Home() {
 
               <div className="md:col-span-8 section-content">
                 <div className="p-6 mb-12">
-                  <div className="space-y-6 text-columns-2">
-                    {(t('termsConditions') as string[]).map((term, index) => (
-                      <div key={index} className="flex items-start gap-4 hover-lift">
-                        <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">
-                          {(index + 1).toString().padStart(2, "0")}
-                        </div>
-                        <div className="body-medium text-white/80 font-sans text-pretty">
-                          <AdvancedTextAnimation tag="p" delay={0.1 * index} type="fade">
-                            {term}
-                          </AdvancedTextAnimation>
-                        </div>
+                  <div className="space-y-6">
+                    <div className="flex items-start gap-4 hover-lift">
+                      <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">01</div>
+                      <div className="body-medium text-white/80 font-sans text-pretty">
+                        <AdvancedTextAnimation tag="p" delay={0.1} type="fade">
+                          {language === 'pt' ? 'Validade: 10 dias a partir da data de apresentação' : 'Validity: 10 days from presentation date'}
+                        </AdvancedTextAnimation>
                       </div>
-                    ))}
+                    </div>
+                    <div className="flex items-start gap-4 hover-lift">
+                      <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">02</div>
+                      <div className="body-medium text-white/80 font-sans text-pretty">
+                        <AdvancedTextAnimation tag="p" delay={0.2} type="fade">
+                          {language === 'pt' ? 'Pagamento: 40% na contratação • 40% antes da montagem • 20% na entrega dos masters' : 'Payment: 40% upon contracting • 40% before setup • 20% upon masters delivery'}
+                        </AdvancedTextAnimation>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-4 hover-lift">
+                      <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">03</div>
+                      <div className="body-medium text-white/80 font-sans text-pretty">
+                        <AdvancedTextAnimation tag="p" delay={0.3} type="fade">
+                          {language === 'pt' ? 'Fase 1 — Pesquisa & R&D (remunerada): etapa independente abatível do total se aprovado' : 'Phase 1 — Research & R&D (paid): independent stage deductible from total if approved'}
+                        </AdvancedTextAnimation>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-4 hover-lift">
+                      <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">04</div>
+                      <div className="body-medium text-white/80 font-sans text-pretty">
+                        <AdvancedTextAnimation tag="p" delay={0.4} type="fade">
+                          {language === 'pt' ? 'Tributos/Retenções: não inclusos no orçamento' : 'Taxes/Withholdings: not included in budget'}
+                        </AdvancedTextAnimation>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-4 hover-lift">
+                      <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">05</div>
+                      <div className="body-medium text-white/80 font-sans text-pretty">
+                        <AdvancedTextAnimation tag="p" delay={0.5} type="fade">
+                          {language === 'pt' ? 'Exclusões: PR/assessoria; cachês/cessões de imagem de terceiros; logística de público; taxas municipais extraordinárias' : 'Exclusions: PR/consulting; third-party image fees; public logistics; extraordinary municipal fees'}
+                        </AdvancedTextAnimation>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -884,14 +959,14 @@ export default function Home() {
                     </div>
                     <div className="space-y-4">
                       <div>
-                        <div className="caption text-white/60 mb-1">Location</div>
-                        <div className="body-medium font-mono number-accent">São Paulo, Brazil</div>
+                        <div className="caption text-white/60 mb-1">{language === 'pt' ? 'Localização' : 'Location'}</div>
+                        <div className="body-medium font-mono number-accent">{language === 'pt' ? 'São Paulo, Brasil' : 'São Paulo, Brazil'}</div>
                       </div>
                       <div>
                         <div className="caption text-white/60 mb-1">Client</div>
                         <div className="body-large font-sans">
                           <AdvancedTextAnimation delay={0.4} fontWeight="bold" type="fade">
-                            BETANO / WIEDEN+KENNEDY
+                            AKQA
                           </AdvancedTextAnimation>
                         </div>
                       </div>
@@ -906,13 +981,13 @@ export default function Home() {
                       <div className="pt-4">
                         <button
                           onClick={() => {
-                            const message = encodeURIComponent("Proposta aprovada! Vamos começar!")
+                            const message = encodeURIComponent(language === 'pt' ? "Nike × Vasco - Proposta de projeção aprovada! Vamos começar!" : "Nike × Vasco - Projection proposal approved! Let's get started!")
                             window.open(`https://wa.me/5511986243000?text=${message}`, '_blank')
                           }}
                           className="button-2025 w-full uppercase tracking-widest text-xs"
                           data-cursor="pointer"
                         >
-                          {t('acceptProposal')}
+                          {language === 'pt' ? 'ACEITAR PROPOSTA' : 'ACCEPT PROPOSAL'}
                         </button>
                       </div>
                     </div>

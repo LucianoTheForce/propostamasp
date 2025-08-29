@@ -55,8 +55,6 @@ function GeneratedLogo() {
           metalness={0.9}
           roughness={0.1}
           envMapIntensity={1.5}
-          clearcoat={1.0}
-          clearcoatRoughness={0.1}
         />
       </mesh>
       

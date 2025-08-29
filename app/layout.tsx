@@ -4,7 +4,7 @@ import "./globals.css"
 import { LanguageProvider } from "@/contexts/language-context"
 
 export const metadata: Metadata = {
-  title: "BETANO × THE FORCE | Roda Roleta - Metro Activation Proposal",
+  title: "NIKE × VASCO | Proposta — Projeção Mapeada no Estádio São Januário",
   description: "Interactive promotional activation proposal for Betano Roda Roleta at São Paulo Metro Station",
   generator: 'v0.dev',
   icons: {
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className="font-sans">
         <LanguageProvider>
           {children}
