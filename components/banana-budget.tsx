@@ -68,7 +68,7 @@ export default function BananaBudget() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="bg-gradient-to-br from-yellow-500/10 to-orange-500/10 rounded-xl p-6 border border-yellow-500/20"
+            className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10"
           >
             <h4 className="text-xl font-bold text-white mb-4">
               {isEnglish ? '3D Design' : 'Design 3D'}
@@ -93,7 +93,7 @@ export default function BananaBudget() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 rounded-xl p-6 border border-green-500/20"
+            className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10"
           >
             <h4 className="text-xl font-bold text-white mb-4">
               {isEnglish ? 'Initial Production' : 'Produção Inicial'}
@@ -116,7 +116,7 @@ export default function BananaBudget() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="bg-gradient-to-br from-blue-500/10 to-indigo-500/10 rounded-xl p-6 border border-blue-500/20"
+            className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10"
           >
             <h4 className="text-xl font-bold text-white mb-4">
               {isEnglish ? 'Field Application' : 'Aplicação em Campo'}
@@ -141,7 +141,7 @@ export default function BananaBudget() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
-          className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-2xl p-8 border border-purple-500/20"
+          className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10"
         >
           <h3 className="text-2xl font-bold text-white mb-4">
             {isEnglish ? 'Next Steps' : 'Próximos Passos'}
@@ -175,13 +175,13 @@ export default function BananaBudget() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.7 }}
-          className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-yellow-400 via-orange-500 to-red-500 p-1"
+          className="relative overflow-hidden rounded-3xl bg-white/10 backdrop-blur-sm p-1"
         >
-          <div className="bg-gray-900 rounded-3xl p-12 text-center">
+          <div className="bg-black/90 rounded-3xl p-12 text-center border border-white/10">
             <h3 className="text-3xl font-bold text-white mb-4">
               {isEnglish ? 'Total Investment' : 'Investimento Total'}
             </h3>
-            <div className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 mb-6">
+            <div className="text-6xl font-bold text-white mb-6">
               {formatCurrency(bananaSwooshBudget.investment.total)}
             </div>
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
