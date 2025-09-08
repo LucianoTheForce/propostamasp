@@ -28,8 +28,8 @@ import { DynamicText } from "@/components/dynamic-text"
 import { LanguageToggle } from "@/components/language-toggle"
 import { useLanguage } from "@/contexts/language-context"
 import { InteractiveLogoHero } from "@/components/interactive-logo-hero"
-// Remove Betano components and add projection component
-import { ProjectionBudget } from "@/components/projection-budget"
+// Import Banana Budget component
+import BananaBudget from "@/components/banana-budget"
 
 
 
@@ -191,7 +191,7 @@ export default function Home() {
                         }}
                       >
                         <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                          NIKE × VASCO
+                          SWOOSH BANANA
                         </AdvancedTextAnimation>
                       </div>
                       <div
@@ -279,7 +279,7 @@ export default function Home() {
                   phrases={[
                     "immersive brand experiences.",
                     "cutting-edge visual identities.",
-                    "revolutionary stadium projections.",
+                    "revolutionary branded produce.",
                     "memorable event productions.",
                     "innovative spatial narratives."
                   ]}
@@ -293,15 +293,14 @@ export default function Home() {
             <div className="mt-[40vh] mb-8 relative z-10">
               <p className="body-large font-sans max-w-3xl mb-4">
                 THE FORCE is an agency and production company that combines art and technology to create
-                expanded narratives and surprising experiences. We specialize in projection mapping,
-                immersive environments, and cutting-edge event production that transforms brands into
+                expanded narratives and surprising experiences. We specialize in innovative branding solutions,
+                immersive experiences, and cutting-edge product development that transforms brands into
                 unforgettable experiences.
               </p>
               <p className="body-large font-sans max-w-3xl">
-                For the Nike × Vasco activation, we're bringing stadium projection to new heights.
-                "Ir Contra a Maré Nos Faz Gigantes" — a visual spectacle that transforms São Januário's
-                facade into a living canvas where the force of the Vasco supporters meets Nike's
-                innovative spirit.
+                For the Swoosh Banana prototype, we're pioneering branded produce through natural growth.
+                A revolutionary agricultural innovation that transforms ordinary bananas into Nike-branded
+                fruits, creating a unique intersection of nature and brand identity through 3D molding technology.
               </p>
             </div>
 
@@ -333,17 +332,17 @@ export default function Home() {
                 <div className="mb-6">
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      NIKE × VASCO
+                      SWOOSH BANANA
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.1} letterSpacing="-0.03em">
-                      PROJEÇÃO EM
+                      PROTOTYPE
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.2} letterSpacing="-0.03em">
-                      SÃO JANUÁRIO
+                      NIKE
                     </AdvancedTextAnimation>
                   </h2>
                 </div>
@@ -356,23 +355,23 @@ export default function Home() {
                   <ul className="space-y-3 text-white/80 body-medium font-sans">
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Projeção mapeada na fachada do estádio São Januário' : 'Projection mapping on São Januário stadium facade'}</span>
+                      <span>{language === 'pt' ? 'Design e produção de moldes 3D no formato Swoosh' : '3D Swoosh-shaped mold design and production'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Criação de experiência imersiva com volumetria e lasers' : 'Immersive experience creation with volumetrics and lasers'}</span>
+                      <span>{language === 'pt' ? '100 moldes reutilizáveis em policarbonato transparente' : '100 reusable transparent polycarbonate molds'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Captação cinematográfica profissional com drone' : 'Professional cinematographic capture with drone'}</span>
+                      <span>{language === 'pt' ? 'Aplicação em bananas jovens (8-10cm) pós-floração' : 'Application on young bananas (8-10cm) post-flowering'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Produção de filme com cortes para múltiplas plataformas' : 'Film production with cuts for multiple platforms'}</span>
+                      <span>{language === 'pt' ? 'Monitoramento de cultivo por 12 semanas' : '12-week cultivation monitoring program'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Pós-produção com VFX e sound design' : 'Post-production with VFX and sound design'}</span>
+                      <span>{language === 'pt' ? 'Análise de escalabilidade e rendimento' : 'Scalability and yield analysis'}</span>
                     </li>
                   </ul>
                 </div>
@@ -391,12 +390,12 @@ export default function Home() {
                 <div className="mb-6">
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      IR CONTRA A MARÉ
+                      NATURAL
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.1} letterSpacing="-0.03em">
-                      NOS FAZ GIGANTES
+                      BRANDING
                     </AdvancedTextAnimation>
                   </h2>
                 </div>
@@ -445,12 +444,12 @@ export default function Home() {
                 <div className="mb-6">
                   <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl leading-none tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      PROJEÇÃO
+                      NIKE
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl leading-none tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.2} letterSpacing="-0.03em">
-                      MONUMENTAL
+                      AGRÍCOLA
                     </AdvancedTextAnimation>
                   </h2>
                 </div>
@@ -497,7 +496,7 @@ export default function Home() {
                 <div className="caption text-white/60 mb-2">{t('clientLabel')}</div>
                 <div className="heading-medium font-sans">
                   <AdvancedTextAnimation delay={0.2} type="slide" direction="up">
-                    AKQA / NIKE
+                    NIKE BRASIL
                   </AdvancedTextAnimation>
                 </div>
               </MagneticElement>
@@ -534,7 +533,7 @@ export default function Home() {
                 </div>
                 <div className="display-medium font-sans mb-6">
                   <AdvancedTextAnimation tag="h2" type="word" letterSpacing="-0.03em">
-                    {language === 'pt' ? 'A MARÉ CONTIDA' : 'THE CONTAINED TIDE'}
+                    {language === 'pt' ? 'MOLDAGEM NATURAL' : 'NATURAL MOLDING'}
                   </AdvancedTextAnimation>
                 </div>
                 <div className="body-large text-white/80 font-sans text-pretty max-w-4xl">
@@ -588,28 +587,28 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{t('projectionSpecLabel')}</h4>
-                <p className="text-sm text-white/70">{t('projectionSpecDescription')}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'MOLDE 3D' : '3D MOLD'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Molde em duas metades formato Swoosh com trava de segurança' : 'Two-piece Swoosh-shaped mold with safety lock'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{t('volumetrySpecLabel')}</h4>
-                <p className="text-sm text-white/70">{t('volumetrySpecDescription')}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'MATERIAL' : 'MATERIAL'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Policarbonato transparente, 2-3mm espessura, resistente UV' : 'Transparent polycarbonate, 2-3mm thickness, UV resistant'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{t('laserLightSpecLabel')}</h4>
-                <p className="text-sm text-white/70">{t('laserLightSpecDescription')}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'VENTILAÇÃO' : 'VENTILATION'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Micro-furos para prevenir condensação e fungos' : 'Micro-holes to prevent condensation and fungi'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{t('energyRiggingSpecLabel')}</h4>
-                <p className="text-sm text-white/70">{t('energyRiggingSpecDescription')}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'PRODUÇÃO' : 'PRODUCTION'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? '100 moldes reutilizáveis para múltiplos ciclos de cultivo' : '100 reusable molds for multiple cultivation cycles'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{t('cinemaCaptureSpecLabel')}</h4>
-                <p className="text-sm text-white/70">{t('cinemaCaptureSpecDescription')}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'APLICAÇÃO' : 'APPLICATION'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Instalação em bananas jovens 8-10cm pós-floração' : 'Installation on young bananas 8-10cm post-flowering'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{t('postProductionSpecLabel')}</h4>
-                <p className="text-sm text-white/70">{t('postProductionSpecDescription')}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'MONITORAMENTO' : 'MONITORING'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Acompanhamento semanal por 12 semanas até colheita' : 'Weekly monitoring for 12 weeks until harvest'}</p>
               </div>
             </div>
           </div>
@@ -656,12 +655,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Projeção ao Vivo' : 'Live Projection'}
+                      {language === 'pt' ? 'Design & Prototipagem' : 'Design & Prototyping'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.2} type="fade">
-                      {language === 'pt' ? 'Execução da projeção mapeada na fachada de São Januário com toda infraestrutura técnica' : 'Projection mapping execution on São Januário facade with complete technical infrastructure'}
+                      {language === 'pt' ? 'Design e desenvolvimento do molde 3D Swoosh com engenharia de precisão' : '3D Swoosh mold design and development with precision engineering'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -675,12 +674,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Filme de Lançamento' : 'Launch Film'}
+                      {language === 'pt' ? 'Produção dos Moldes' : 'Mold Production'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.3} type="fade">
-                      {language === 'pt' ? 'Filme de 45" + cortes de 15" e 6" adaptados para formatos 16:9, 9:16 e 1:1' : '45" film + 15" and 6" cuts adapted for 16:9, 9:16 and 1:1 formats'}
+                      {language === 'pt' ? 'Fabricação de 100 moldes em policarbonato transparente resistente UV' : 'Manufacturing of 100 UV-resistant transparent polycarbonate molds'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -694,12 +693,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Fotografia Hero' : 'Hero Photography'}
+                      {language === 'pt' ? 'Teste Piloto' : 'Pilot Test'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.4} type="fade">
-                      {language === 'pt' ? 'Capturas hero e stills da projeção para uso em campanhas e mídia' : 'Hero captures and projection stills for campaign and media use'}
+                      {language === 'pt' ? 'Aplicação em campo e monitoramento de cultivo por 12 semanas' : 'Field application and 12-week cultivation monitoring'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -713,12 +712,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      Behind the Scenes
+                      {language === 'pt' ? 'Análise de Resultados' : 'Results Analysis'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.5} type="fade">
-                      {language === 'pt' ? 'Documentação do processo criativo e técnico (30–60")' : 'Creative and technical process documentation (30–60")'}
+                      {language === 'pt' ? 'Relatório de escalabilidade, rendimento e viabilidade comercial' : 'Scalability, yield, and commercial viability report'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -746,17 +745,17 @@ export default function Home() {
               </div>
               <div className="display-medium font-sans mb-6">
                 <AdvancedTextAnimation tag="h2" type="word" letterSpacing="-0.03em">
-                  {language === 'pt' ? 'Investimento — 4 Cenários' : 'Investment — 4 Scenarios'}
+                  {language === 'pt' ? 'Investimento Total' : 'Total Investment'}
                 </AdvancedTextAnimation>
               </div>
               <div className="body-large text-white/80 font-sans text-pretty max-w-3xl">
                 <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                  {language === 'pt' ? 'Opções técnicas detalhadas para a projeção em São Januário, desde a experiência premium até VFX 100% em pós' : 'Detailed technical options for São Januário projection, from premium experience to 100% post-production VFX'}
+                  {language === 'pt' ? 'Desenvolvimento completo do molde 3D Swoosh e teste piloto com 100 unidades para validação de viabilidade' : 'Complete 3D Swoosh mold development and pilot test with 100 units for feasibility validation'}
                 </AdvancedTextAnimation>
               </div>
             </div>
 
-            <ProjectionBudget />
+            <BananaBudget />
           </div>
         </section>
 
@@ -782,7 +781,7 @@ export default function Home() {
                   </div>
                   <div className="body-medium text-white/80 mb-6 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" type="fade">
-                      {language === 'pt' ? 'Processo estruturado para execução do projeto de projeção em São Januário' : 'Structured process for São Januário projection project execution'}
+                      {language === 'pt' ? 'Processo estruturado para execução do protótipo Banana Swoosh' : 'Structured process for Banana Swoosh prototype execution'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="space-y-4 mb-6">
@@ -790,7 +789,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">01</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.1} type="fade">
-                          {language === 'pt' ? 'Escolha do caminho técnico (A/B/C/D) e ajustes de escopo' : 'Technical path selection (A/B/C/D) and scope adjustments'}
+                          {language === 'pt' ? 'Aprovação do design 3D do molde Swoosh e especificações técnicas' : '3D Swoosh mold design approval and technical specifications'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -798,7 +797,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">02</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.2} type="fade">
-                          {language === 'pt' ? 'Aprovação do roteiro/VO e frames-chave para o filme' : 'Script/VO and key frames approval for the film'}
+                          {language === 'pt' ? 'Seleção de parceiro agrícola e plantação adequada' : 'Agricultural partner and suitable plantation selection'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -806,7 +805,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">03</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.3} type="fade">
-                          {language === 'pt' ? 'Fechamento de fornecedores e permissões' : 'Supplier agreements and permissions'}
+                          {language === 'pt' ? 'Produção dos 100 moldes em policarbonato' : 'Production of 100 polycarbonate molds'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -814,7 +813,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">04</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.4} type="fade">
-                          {language === 'pt' ? 'Testes controlados e filmagem' : 'Controlled testing and filming'}
+                          {language === 'pt' ? 'Instalação em campo e início do monitoramento' : 'Field installation and monitoring start'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -822,7 +821,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">05</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.5} type="fade">
-                          {language === 'pt' ? 'Pós e entrega dos masters' : 'Post-production and masters delivery'}
+                          {language === 'pt' ? 'Colheita e análise de resultados' : 'Harvest and results analysis'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -966,7 +965,7 @@ export default function Home() {
                         <div className="caption text-white/60 mb-1">Client</div>
                         <div className="body-large font-sans">
                           <AdvancedTextAnimation delay={0.4} fontWeight="bold" type="fade">
-                            AKQA
+                            NIKE BRASIL
                           </AdvancedTextAnimation>
                         </div>
                       </div>
@@ -981,7 +980,7 @@ export default function Home() {
                       <div className="pt-4">
                         <button
                           onClick={() => {
-                            const message = encodeURIComponent(language === 'pt' ? "Nike × Vasco - Proposta de projeção aprovada! Vamos começar!" : "Nike × Vasco - Projection proposal approved! Let's get started!")
+                            const message = encodeURIComponent(language === 'pt' ? "Swoosh Banana Nike - Proposta aprovada! Vamos começar!" : "Swoosh Banana Nike - Proposal approved! Let's get started!")
                             window.open(`https://wa.me/5511986243000?text=${message}`, '_blank')
                           }}
                           className="button-2025 w-full uppercase tracking-widest text-xs"

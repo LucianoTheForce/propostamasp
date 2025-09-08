@@ -4,9 +4,9 @@ export const translations = {
     location: "BR - SP",
     
     // Header section
-    title: "NIKE × VASCO",
-    subtitle: "PROJEÇÃO",
-    proposalTitle: "Proposal — Projection Mapping at São Januário Stadium",
+    title: "BANANA",
+    subtitle: "SWOOSH",
+    proposalTitle: "Proposal — Banana Swoosh Prototype",
     scrollIndicator: "Scroll to explore",
     
     // Company info
@@ -32,17 +32,17 @@ export const translations = {
     
     // Executive Summary
     executiveSummaryTitle: "EXECUTIVE SUMMARY",
-    executiveSummaryDescription: "The Betano Roulette activation represents a strategic opportunity to transform São Paulo's busiest metro station into a high-conversion marketing engine. Targeting 338,000 daily commuters with casino-grade excitement, this activation generates qualified leads through immersive gaming experiences, delivering immediate brand engagement and measurable ROI of +140% within 12 months.",
+    executiveSummaryDescription: "The Banana Swoosh Prototype represents an innovative approach to branded produce through natural growth. By developing specialized 3D molds in the Swoosh shape, we create naturally branded bananas that grow into the iconic Nike symbol, establishing a revolutionary methodology for agricultural branding.",
     
     // Strategic Vision
     strategicVisionTitle: "Strategic Vision",
-    strategicVisionSubtitle: "Converting Metro Traffic into Brand Loyalty",
-    strategicVisionDescription: "This activation capitalizes on three critical market factors: São Paulo's massive daily commuter flow, Betano's expansion into the Brazilian gaming market, and the proven effectiveness of experiential marketing in high-traffic environments. By positioning Betano as the premium gaming brand at the city's central transportation hub, we create sustained brand awareness and customer acquisition.",
+    strategicVisionSubtitle: "Revolutionary Branded Produce Through Natural Growth",
+    strategicVisionDescription: "This prototype capitalizes on the intersection of agricultural innovation and brand marketing. By developing molds that shape bananas during their natural growth process, we create a unique product that combines Nike's iconic branding with sustainable agricultural practices.",
     strategicVisionPoints: [
-      "Market Penetration: Direct access to 338,000 potential customers daily across all demographics",
-      "Brand Positioning: Establish Betano as the leading gaming platform through premium activation experience", 
-      "Customer Acquisition: Convert 0.5% of daily traffic into qualified leads (1,700+ registrations/day)",
-      "ROI Optimization: Generate 1,450+ new depositors with 12-month customer lifetime value exceeding investment"
+      "Innovation: Pioneer the first naturally grown branded produce using 3D molding technology",
+      "Brand Impact: Create viral marketing potential through uniquely shaped branded fruits",
+      "Scalability: Test feasibility for large-scale production with 100 reusable molds",
+      "Sustainability: Develop eco-friendly branding method that works with nature, not against it"
     ],
     
     // Concept & Mechanics
@@ -106,20 +106,20 @@ export const translations = {
 
     // Project section
     projectLabel: "CREATIVE CONCEPT",
-    projectTitle1: "NIKE × VASCO",
-    projectTitle2: "PROJECTION",
-    projectTitle3: "SÃO JANUÁRIO",
+    projectTitle1: "BANANA",
+    projectTitle2: "SWOOSH",
+    projectTitle3: "PROTOTYPE",
     
-    projectScopeTitle: "Client: AKQA / Nike | Location: São Januário Stadium | Concept: Going against the tide makes us giants",
+    projectScopeTitle: "Client: Nike Brazil | Location: Agricultural Testing Facility | Concept: Nature Meets Innovation",
     projectScope: [
-      "JCDecaux Panel (1h/day): giant roulette, 30s pre-rendered video - visual climax seen from entire station",
-      "LED Booth Panel (6h): mirrors results and keeps the show spinning all day",
-      "Immersive scenography: dynamic lights, ultra-fast registration totem, illuminated prize counter",
-      "Anchor message: 'Participate free, spin Betano Roulette and win instant prizes!'",
-      "Monster flow conversion into qualified leads ready for Betano platform",
-      "Premium prizes and Las Vegas energy updated to digital era",
-      "Complete LGPD compliance and 18+ age verification system",
-      "Real-time prize distribution with immediate gratification"
+      "3D Mold Design: Swoosh-shaped transparent polycarbonate molds in two halves",
+      "Material Engineering: 2-3mm thickness, UV resistant, withstands growth pressure",
+      "Production Scale: 100 reusable molds for comprehensive pilot testing",
+      "Field Application: Installation on young bananas at optimal 8-10cm stage",
+      "Monitoring Program: 12-week cultivation cycle with weekly adjustments",
+      "Quality Control: Measurement of aesthetics, yield, and shape consistency",
+      "Scalability Analysis: Data collection for future large-scale production",
+      "Innovation Impact: First-ever naturally branded produce through growth shaping"
     ],
     
     // Creative Concept Section
@@ -329,9 +329,9 @@ export const translations = {
     location: "BR - SP",
     
     // Header section
-    title: "NIKE × VASCO",
-    subtitle: "PROJEÇÃO",
-    proposalTitle: "Proposta — Projeção Mapeada no Estádio São Januário",
+    title: "BANANA",
+    subtitle: "SWOOSH",
+    proposalTitle: "Proposta — Protótipo Banana Swoosh",
     scrollIndicator: "Role para explorar",
     
     // Company info
@@ -357,17 +357,17 @@ export const translations = {
     
     // Sumário Executivo
     executiveSummaryTitle: "SUMÁRIO EXECUTIVO",
-    executiveSummaryDescription: "A ativação Roda Roleta Betano representa uma oportunidade estratégica de transformar a estação de metrô mais movimentada de São Paulo em um motor de marketing de alta conversão. Direcionando 338.000 passageiros diários com emoção de cassino, esta ativação gera leads qualificados através de experiências de jogo imersivas, entregando engajamento imediato da marca e ROI mensurável de +140% em 12 meses.",
+    executiveSummaryDescription: "O Protótipo Banana Swoosh representa uma abordagem inovadora para produtos branded através do crescimento natural. Desenvolvendo moldes 3D especializados no formato Swoosh, criamos bananas naturalmente branded que crescem no símbolo icônico da Nike, estabelecendo uma metodologia revolucionária para branding agrícola.",
     
     // Strategic Vision
     strategicVisionTitle: "Visão Estratégica",
-    strategicVisionSubtitle: "Convertendo Tráfego do Metrô em Fidelidade à Marca",
-    strategicVisionDescription: "Esta ativação capitaliza três fatores críticos de mercado: o fluxo massivo diário de passageiros de São Paulo, a expansão da Betano no mercado brasileiro de jogos e a eficácia comprovada do marketing experiencial em ambientes de alto tráfego. Ao posicionar a Betano como a marca premium de jogos no hub central de transporte da cidade, criamos consciência sustentada da marca e aquisição de clientes.",
+    strategicVisionSubtitle: "Produção Revolucionária Branded Através do Crescimento Natural",
+    strategicVisionDescription: "Este protótipo capitaliza a interseção entre inovação agrícola e marketing de marca. Desenvolvendo moldes que moldam bananas durante seu processo de crescimento natural, criamos um produto único que combina o branding icônico da Nike com práticas agrícolas sustentáveis.",
     strategicVisionPoints: [
-      "Penetração de Mercado: Acesso direto a 338.000 clientes potenciais diariamente em todas as demografias",
-      "Posicionamento de Marca: Estabelecer Betano como plataforma líder de jogos através de experiência premium de ativação",
-      "Aquisição de Clientes: Converter 0,5% do tráfego diário em leads qualificados (1.700+ cadastros/dia)",
-      "Otimização de ROI: Gerar 1.450+ novos depositantes com valor de vida útil de 12 meses excedendo investimento"
+      "Inovação: Pioneiro na primeira produção branded cultivada naturalmente usando tecnologia de moldagem 3D",
+      "Impacto da Marca: Criar potencial de marketing viral através de frutas branded com formato único",
+      "Escalabilidade: Testar viabilidade para produção em larga escala com 100 moldes reutilizáveis",
+      "Sustentabilidade: Desenvolver método de branding ecológico que trabalha com a natureza, não contra ela"
     ],
     
     // Concept & Mechanics
@@ -431,20 +431,20 @@ export const translations = {
 
     // Project section
     projectLabel: "CONCEITO CRIATIVO",
-    projectTitle1: "NIKE × VASCO",
-    projectTitle2: "PROJEÇÃO",
-    projectTitle3: "SÃO JANUÁRIO",
+    projectTitle1: "BANANA",
+    projectTitle2: "SWOOSH",
+    projectTitle3: "PROTÓTIPO",
     
-    projectScopeTitle: "Cliente: AKQA / Nike | Local: Estádio São Januário | Conceito: Ir contra a maré nos faz gigantes",
+    projectScopeTitle: "Cliente: Nike Brasil | Local: Instalação de Teste Agrícola | Conceito: Natureza Encontra Inovação",
     projectScope: [
-      "Painel JCDecaux (1h/dia): roleta gigante, vídeo pré-renderizado de 30s - clímax visual visto de toda a estação",
-      "Painel LED do estande (6h): espelha o resultado e mantém o show girando o dia todo",
-      "Cenografia imersiva: luzes dinâmicas, totem de cadastro ultrarrápido, balcão de prêmios iluminado",
-      
-      "Conversão de fluxo monstruoso em leads qualificados prontos para plataforma Betano",
-      "Prêmios premium e energia de Las Vegas atualizada à era digital",
-      "Conformidade completa LGPD e sistema de verificação de idade 18+",
-      "Distribuição de prêmios em tempo real com gratificação imediata"
+      "Design de Molde 3D: Moldes de policarbonato transparente no formato Swoosh em duas metades",
+      "Engenharia de Material: Espessura 2-3mm, resistente UV, suporta pressão de crescimento",
+      "Escala de Produção: 100 moldes reutilizáveis para teste piloto abrangente",
+      "Aplicação em Campo: Instalação em bananas jovens no estágio ótimo de 8-10cm",
+      "Programa de Monitoramento: Ciclo de cultivo de 12 semanas com ajustes semanais",
+      "Controle de Qualidade: Medição de estética, rendimento e consistência do formato",
+      "Análise de Escalabilidade: Coleta de dados para futura produção em larga escala",
+      "Impacto de Inovação: Primeira produção branded naturalmente através de moldagem de crescimento"
     ],
     
     // Creative Concept Section
