@@ -51,7 +51,7 @@ export const bananaSwooshBudget = {
   },
 
   investment: {
-    total: 230000,
+    total: 228430,
     description: "Total value for mold development, production of 100 pieces, and pilot test monitoring",
     includes: [
       "3D Swoosh mold design and prototyping",
