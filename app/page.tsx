@@ -210,7 +210,7 @@ export default function Home() {
                           staggerChildren={0.03}
                           letterSpacing="-0.03em"
                         >
-                          PROJEÇÃO
+                          NIKE
                         </AdvancedTextAnimation>
                         <span className="text-xs align-top relative" style={{ top: "0.5rem", marginLeft: "-0.1em" }}>®</span>
                       </div>
@@ -378,118 +378,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Creative Concept */}
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start mb-32">
-              <div className="md:col-span-4 section-title-2025-modern">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-6 h-6 border border-white flex items-center justify-center">
-                    <div className="w-2 h-2 bg-white"></div>
-                  </div>
-                  <div className="caption text-white/60">{t('creativeLabel')}</div>
-                </div>
-                <div className="mb-6">
-                  <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
-                    <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      NATURAL
-                    </AdvancedTextAnimation>
-                  </h2>
-                  <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
-                    <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.1} letterSpacing="-0.03em">
-                      BRANDING
-                    </AdvancedTextAnimation>
-                  </h2>
-                </div>
-                <div className="h-1 w-16 bg-white/50 rounded-full"></div>
-              </div>
-
-              <div className="md:col-span-8 section-content">
-                <div className="mb-8">
-                  <h3 className="heading-medium font-sans mb-4 text-white">
-                    {language === 'pt' ? 'Conceito Visual' : 'Visual Concept'}
-                  </h3>
-                  <p className="text-white/80 mb-6 body-medium font-sans">
-                    {t('visualConceptDescription')}
-                  </p>
-                  <ul className="space-y-3 text-white/80 body-medium font-sans">
-                    <li className="flex items-start">
-                      <span className="text-white mr-3 mt-1">+</span>
-                      <span>
-                        <strong className="text-white">{t('volumetricsLabel')}</strong> - {t('volumetricsDescription')}
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-white mr-3 mt-1">+</span>
-                      <span>
-                        <strong className="text-white">{t('lightLaserLabel')}</strong> - {t('lightLaserDescription')}
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-white mr-3 mt-1">+</span>
-                      <span>
-                        <strong className="text-white">{t('chromaticsLabel')}</strong> - {t('chromaticsDescription')}
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Project Overview */}
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
-              <div className="md:col-span-4 section-title-2025-modern">
-                <div className="flex items-center gap-3 mb-4">
-                  <Icon type="overview" className="text-white" />
-                  <div className="caption text-white/60 glitch-text">{t('overviewLabel')}</div>
-                </div>
-                <div className="mb-6">
-                  <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl leading-none tracking-tight font-bold">
-                    <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      NIKE
-                    </AdvancedTextAnimation>
-                  </h2>
-                  <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl leading-none tracking-tight font-bold">
-                    <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.2} letterSpacing="-0.03em">
-                      AGRÍCOLA
-                    </AdvancedTextAnimation>
-                  </h2>
-                </div>
-                <div className="h-1 w-16 bg-white/50 rounded-full"></div>
-              </div>
-
-              <div className="md:col-span-8 section-content">
-                <div className="body-large text-white/80 font-sans mb-6 font-sans text-pretty">
-                  <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                    {t('overviewDescription')}
-                  </AdvancedTextAnimation>
-                </div>
-                <div className="space-y-4">
-                  <div className="flex items-start hover-lift">
-                    <span className="text-white mr-3 mt-1">+</span>
-                    <div className="body-medium text-white/70 font-sans">
-                      <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                        {t('overviewFeature1')}
-                      </AdvancedTextAnimation>
-                    </div>
-                  </div>
-                  <div className="flex items-start hover-lift">
-                    <span className="text-white mr-3 mt-1">+</span>
-                    <div className="body-medium text-white/70 font-sans">
-                      <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                        {t('overviewFeature2')}
-                      </AdvancedTextAnimation>
-                    </div>
-                  </div>
-                  <div className="flex items-start hover-lift">
-                    <span className="text-white mr-3 mt-1">+</span>
-                    <div className="body-medium text-white/70 font-sans">
-                      <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                        {t('overviewFeature3')}
-                      </AdvancedTextAnimation>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-6 section-content">
               <MagneticElement className="p-6 hover-lift">
@@ -513,53 +401,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Creative Concept Section */}
-        <section
-          id="enhanced"
-          ref={enhancedRef}
-          className="flex items-center relative py-24 solid-bg-section"
-          data-section
-        >
-          <div className="absolute inset-0 z-0">
-            <div className="absolute inset-0 bg-black"></div>
-          </div>
-
-          <div className="container mx-auto px-6 sm:px-8 md:px-6 relative z-10">
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start mb-12">
-              <div className="md:col-span-12 section-title-2025-modern">
-                <div className="flex items-center gap-3 mb-4">
-                  <Icon type="overview" className="text-white" />
-                  <div className="caption text-white/60 glitch-text">{t('projectLabel')}</div>
-                </div>
-                <div className="display-medium font-sans mb-6">
-                  <AdvancedTextAnimation tag="h2" type="word" letterSpacing="-0.03em">
-                    {language === 'pt' ? 'MOLDAGEM NATURAL' : 'NATURAL MOLDING'}
-                  </AdvancedTextAnimation>
-                </div>
-                <div className="body-large text-white/80 font-sans text-pretty max-w-4xl">
-                  <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                    {t('containedTideDescription')}
-                  </AdvancedTextAnimation>
-                </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-                  <div className="p-6 bg-white/5 rounded-lg">
-                    <h4 className="font-bold mb-3">{t('imageSpecTitle')}</h4>
-                    <p className="text-sm text-white/70">{t('imageSpecDescription')}</p>
-                  </div>
-                  <div className="p-6 bg-white/5 rounded-lg">
-                    <h4 className="font-bold mb-3">{t('cameraSpecTitle')}</h4>
-                    <p className="text-sm text-white/70">{t('cameraSpecDescription')}</p>
-                  </div>
-                  <div className="p-6 bg-white/5 rounded-lg">
-                    <h4 className="font-bold mb-3">{t('soundSpecTitle')}</h4>
-                    <p className="text-sm text-white/70">{t('soundSpecDescription')}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Technical Requirements Section */}
         <section
@@ -592,7 +433,7 @@ export default function Home() {
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
                 <h4 className="font-bold mb-3">{language === 'pt' ? 'MATERIAL' : 'MATERIAL'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Policarbonato transparente, 2-3mm espessura, resistente UV' : 'Transparent polycarbonate, 2-3mm thickness, UV resistant'}</p>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Policarbonato transparente, 4mm espessura, resistente UV' : 'Transparent polycarbonate, 4mm thickness, UV resistant'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
                 <h4 className="font-bold mb-3">{language === 'pt' ? 'VENTILAÇÃO' : 'VENTILATION'}</h4>
@@ -639,7 +480,7 @@ export default function Home() {
                 </div>
                 <div className="body-large text-white/80 font-sans text-pretty">
                   <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                    {language === 'pt' ? 'Elementos completos do projeto de projeção em São Januário' : 'Complete projection project elements for São Januário'}
+                    {language === 'pt' ? 'Elementos completos do protótipo Banana Swoosh' : 'Complete Banana Swoosh prototype elements'}
                   </AdvancedTextAnimation>
                 </div>
               </div>
@@ -882,7 +723,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">02</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.2} type="fade">
-                          {language === 'pt' ? 'Pagamento: 40% na contratação • 40% antes da montagem • 20% na entrega dos masters' : 'Payment: 40% upon contracting • 40% before setup • 20% upon masters delivery'}
+                          {language === 'pt' ? 'Pagamento: 40% na contratação • 40% início produção • 20% na entrega dos moldes' : 'Payment: 40% upon contracting • 40% production start • 20% upon molds delivery'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -890,7 +731,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">03</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.3} type="fade">
-                          {language === 'pt' ? 'Fase 1 — Pesquisa & R&D (remunerada): etapa independente abatível do total se aprovado' : 'Phase 1 — Research & R&D (paid): independent stage deductible from total if approved'}
+                          {language === 'pt' ? 'Fase 1 — Design do Molde & Prototipagem: desenvolvimento técnico dos moldes 3D Swoosh' : 'Phase 1 — Mold Design & Prototyping: technical development of 3D Swoosh molds'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -906,7 +747,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">05</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.5} type="fade">
-                          {language === 'pt' ? 'Exclusões: PR/assessoria; cachês/cessões de imagem de terceiros; logística de público; taxas municipais extraordinárias' : 'Exclusions: PR/consulting; third-party image fees; public logistics; extraordinary municipal fees'}
+                          {language === 'pt' ? 'Exclusões: custos agrícolas; plantação/terreno; mão de obra de cultivo; transporte de produção; certificações orgânicas' : 'Exclusions: agricultural costs; plantation/land; cultivation labor; production transport; organic certifications'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>

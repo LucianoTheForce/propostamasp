@@ -6,7 +6,7 @@ export const translations = {
     // Header section
     title: "BANANA",
     subtitle: "SWOOSH",
-    proposalTitle: "Proposal — Banana Swoosh Prototype",
+    proposalTitle: "Proposal — Swoosh Banana Nike Prototype",
     scrollIndicator: "Scroll to explore",
     
     // Company info
@@ -102,7 +102,7 @@ export const translations = {
     ],
 
     // Tagline
-    tagline: "GOING AGAINST THE TIDE MAKES US GIANTS",
+    tagline: "NATURE MEETS INNOVATION",
 
     // Project section
     projectLabel: "CREATIVE CONCEPT",
@@ -124,31 +124,31 @@ export const translations = {
     
     // Creative Concept Section
     visualConceptTitle: "Visual Concept",
-    visualConceptDescription: "The tide as a visual metaphor for the strength and resistance of Vasco supporters, sculpted in light and atmosphere on São Januário's historic wall.",
-    volumetricsLabel: "Volumetrics",
-    volumetricsDescription: "Fog and water particles creating physical density to the projected sea",
-    lightLaserLabel: "Light & Laser",
-    lightLaserDescription: "Beams drawing the force of waves against the architecture",
-    chromaticsLabel: "Chromatics",
-    chromaticsDescription: "Deep petroleum blue with foam whites in high contrast",
+    visualConceptDescription: "Innovative agricultural branding through natural banana growth shaped by custom 3D molds.",
+    volumetricsLabel: "Mold Design",
+    volumetricsDescription: "Two-piece transparent polycarbonate molds creating the iconic Swoosh shape",
+    lightLaserLabel: "Growth Process",
+    lightLaserDescription: "12-week cultivation cycle with precise shape formation",
+    chromaticsLabel: "Quality Control",
+    chromaticsDescription: "Perfect Swoosh formation with consistent brand recognition",
     
-    containedTideTitle: "THE CONTAINED TIDE",
-    containedTideDescription: "We sculpt the tide with light, atmosphere and rhythm — energy advancing to the stadium wall and being contained. The facade remains protagonist. The film is simple, direct and powerful, with underground/analog aesthetics and supporter voiceover in 'sailor' tone.",
+    containedTideTitle: "BANANA MOLDING",
+    containedTideDescription: "Revolutionary agricultural branding through natural growth. By developing specialized 3D molds in the Swoosh shape, we create naturally branded bananas that grow into the iconic Nike symbol.",
     
-    imageSpecTitle: "IMAGE",
-    imageSpecDescription: "Dense blacks, petroleum blue and 'foam' whites; fine grain and high contrast; suggested sea (refractions, plates, discrete particles), never literal.",
-    cameraSpecTitle: "CAMERA & EDITING",
-    cameraSpecDescription: "Macro of optics → grazing on relief → symmetric hero; surgical movement; mechanical cuts; 24 fps and a single 48 fps shot at the apex.",
-    soundSpecTitle: "SOUND & VO",
-    soundSpecDescription: "Sub-harmonic bed inspired by the sea (not literal), dry percussion, silence before reveal; deep VO, few words, breathing pauses.",
+    imageSpecTitle: "MOLD DESIGN",
+    imageSpecDescription: "Two-piece transparent polycarbonate molds, 4mm thickness, UV resistant with micro-ventilation for optimal growth conditions.",
+    cameraSpecTitle: "GROWTH MONITORING",
+    cameraSpecDescription: "Weekly progress documentation over 12-week cultivation cycle, tracking shape formation and brand clarity.",
+    soundSpecTitle: "QUALITY CONTROL",
+    soundSpecDescription: "Comprehensive analysis of shape consistency, brand recognition, and commercial viability for large-scale production.",
     
     // Overview texts
-    projectionTitle: "PROJECTION",
-    monumentalTitle: "MONUMENTAL",
-    overviewDescription: "A unique visual experience that transforms São Januário's facade into a living canvas, where the strength of Vasco supporters meets Nike's technological innovation.",
-    overviewFeature1: "Precise 3D mapping of the stadium architecture for perfect projection",
-    overviewFeature2: "Volumetric effects with fog and laser creating physical depth",
-    overviewFeature3: "Cinematographic capture with drone for epic perspectives",
+    projectionTitle: "PROTOTYPE",
+    monumentalTitle: "INNOVATIVE",
+    overviewDescription: "A revolutionary agricultural innovation that transforms ordinary bananas into Nike-branded produce through natural growth molding technology.",
+    overviewFeature1: "100 reusable polycarbonate molds for pilot testing",
+    overviewFeature2: "12-week cultivation monitoring with weekly adjustments",
+    overviewFeature3: "Scalability analysis for commercial production",
     
     // Technical Requirements
     technicalRequirementsLabel: "TECHNICAL REQUIREMENTS",
@@ -170,13 +170,13 @@ export const translations = {
     creativeLabel: "CONCEPT",
     creativeBrandTitle1: "PROJECTION",
     creativeBrandTitle2: "MAPPING",
-    creativeBrandConceptTitle: '"Ir Contra a Maré Nos Faz Gigantes" - Stadium Projection',
-    creativeBrandConceptIntro: "Interactive promotional activation bringing casino excitement to metro environment:",
+    creativeBrandConceptTitle: '"Nature Meets Innovation" - Banana Swoosh Prototype',
+    creativeBrandConceptIntro: "Revolutionary agricultural branding through natural growth:",
     creativeBrandConcept: [
-      "EXCITEMENT - Real roulette emotion in safe, public metro setting",
-      "ENGAGEMENT - Real-time participation with instant prize distribution",
-      "ACCESSIBILITY - Free, entertaining experience for all metro passengers",
-      "TECHNOLOGY - Digital innovation combining pre-recorded content with live interaction"
+      "INNOVATION - First naturally grown branded produce using 3D molding",
+      "SUSTAINABILITY - Eco-friendly branding that works with nature",
+      "SCALABILITY - Pilot test with 100 molds for commercial viability",
+      "EXCLUSIVITY - Unique Nike-branded fruits for premium activations"
     ],
     
     // Client info
@@ -287,15 +287,15 @@ export const translations = {
     termsDescription: "Commercial terms ensure clear understanding of project scope, deliverables, and production timeline.",
     
     termsConditions: [
-      "The investment includes complete digital casino activation system and 7-day operation.",
-      "Setup timeline: 40 working days including SPA/MF registration, SMUL permits, and team training.",
-      "Operation: 6 hours daily, 72 draws total, 5min 50s participant journey per cycle.",
-      "Participation limited to 1 time per day per CPF with age verification (18+) and LGPD compliance.",
-      "Complete system: JCDecaux integration (1h/day), LED booth (6h/day), 4 registration totems, prize counter.",
-      "High-impact promotional activation with measurable engagement and lead generation results.",
-      "The copyright of the visual identity and activation design belongs to THE FORCE.",
-      "Changes in concept or operational scope after approval may generate additional costs.",
-      "Final delivery includes complete operational documentation and detailed performance reports."
+      "Investment includes complete 3D mold design, production of 100 units, and 12-week pilot test.",
+      "Development timeline: 30 days for mold design, 45 days for production, 84 days cultivation monitoring.",
+      "Payment: 40% upon contracting, 40% at production start, 20% upon molds delivery.",
+      "Phase 1 — Mold Design & Prototyping: technical development of 3D Swoosh molds.",
+      "Exclusions: agricultural costs, plantation/land, cultivation labor, transport, organic certifications.",
+      "Intellectual property of mold design and branding methodology belongs to THE FORCE.",
+      "Changes in technical specifications or production scope may generate additional costs.",
+      "Pilot test includes weekly monitoring reports and final scalability analysis.",
+      "Final delivery includes 100 reusable molds and complete technical documentation."
     ],
     
     // Contact information
@@ -331,7 +331,7 @@ export const translations = {
     // Header section
     title: "BANANA",
     subtitle: "SWOOSH",
-    proposalTitle: "Proposta — Protótipo Banana Swoosh",
+    proposalTitle: "Proposta — Protótipo Swoosh Banana Nike",
     scrollIndicator: "Role para explorar",
     
     // Company info
@@ -427,7 +427,7 @@ export const translations = {
     ],
 
     // Tagline
-    tagline: "IR CONTRA A MARÉ NOS FAZ GIGANTES",
+    tagline: "NATUREZA ENCONTRA INOVAÇÃO",
 
     // Project section
     projectLabel: "CONCEITO CRIATIVO",
@@ -449,31 +449,31 @@ export const translations = {
     
     // Creative Concept Section
     visualConceptTitle: "Conceito Visual",
-    visualConceptDescription: "A maré como metáfora visual da força e resistência do torcedor vascaíno, esculpida em luz e atmosfera no paredão histórico de São Januário.",
-    volumetricsLabel: "Volumetria",
-    volumetricsDescription: "Névoa e partículas de água criando densidade física ao mar projetado",
-    lightLaserLabel: "Luz & Laser",
-    lightLaserDescription: "Feixes desenhando a força das ondas contra a arquitetura",
-    chromaticsLabel: "Cromática",
-    chromaticsDescription: "Azul-petróleo profundo com brancos espuma em alto contraste",
+    visualConceptDescription: "Branding agrícola inovador através do crescimento natural de bananas moldadas por moldes 3D personalizados.",
+    volumetricsLabel: "Design do Molde",
+    volumetricsDescription: "Moldes de policarbonato transparente em duas peças criando o formato icônico Swoosh",
+    lightLaserLabel: "Processo de Crescimento",
+    lightLaserDescription: "Ciclo de cultivo de 12 semanas com formação precisa do formato",
+    chromaticsLabel: "Controle de Qualidade",
+    chromaticsDescription: "Formação perfeita do Swoosh com reconhecimento consistente da marca",
     
-    containedTideTitle: "A MARÉ CONTIDA",
-    containedTideDescription: "Esculpimos a maré com luz, atmosfera e ritmo — energia que avança até o paredão do estádio e é contida. A fachada permanece protagonista. O filme é simples, direto e poderoso, com estética underground/analógica e voice over de torcedor em tom de 'marinheiro'.",
+    containedTideTitle: "MOLDAGEM DA BANANA",
+    containedTideDescription: "Branding agrícola revolucionário através do crescimento natural. Desenvolvendo moldes 3D especializados no formato Swoosh, criamos bananas naturalmente branded que crescem no símbolo icônico da Nike.",
     
-    imageSpecTitle: "IMAGEM",
-    imageSpecDescription: "Pretos densos, azul-petróleo e brancos 'espuma'; grão fino e alto contraste; mar sugerido (refrações, placas, partículas discretas), nunca literal.",
-    cameraSpecTitle: "CÂMERA & EDIÇÃO",
-    cameraSpecDescription: "Macro da ótica → rasante no relevo → hero simétrico; movimento cirúrgico; cortes mecânicos; 24 fps e um único plano a 48 fps no ápice.",
-    soundSpecTitle: "SOM & VO",
-    soundSpecDescription: "Cama sub-harmônica inspirada no mar (não literal), percussão seca, silêncio antes do reveal; VO grave, poucas palavras, pausas que respiram.",
+    imageSpecTitle: "DESIGN DO MOLDE",
+    imageSpecDescription: "Moldes de policarbonato transparente em duas peças, 4mm de espessura, resistente UV com micro-ventilação para condições ótimas de crescimento.",
+    cameraSpecTitle: "MONITORAMENTO DO CRESCIMENTO",
+    cameraSpecDescription: "Documentação semanal do progresso ao longo do ciclo de cultivo de 12 semanas, rastreando formação do formato e clareza da marca.",
+    soundSpecTitle: "CONTROLE DE QUALIDADE",
+    soundSpecDescription: "Análise abrangente de consistência do formato, reconhecimento da marca e viabilidade comercial para produção em larga escala.",
     
     // Overview texts
-    projectionTitle: "PROJEÇÃO",
-    monumentalTitle: "MONUMENTAL",
-    overviewDescription: "Uma experiência visual única que transforma a fachada de São Januário em uma tela viva, onde a força da torcida vascaína encontra a inovação tecnológica da Nike.",
-    overviewFeature1: "Mapeamento 3D preciso da arquitetura do estádio para projeção perfeita",
-    overviewFeature2: "Efeitos volumétricos com névoa e laser criando profundidade física",
-    overviewFeature3: "Captação cinematográfica com drone para perspectivas épicas",
+    projectionTitle: "PROTÓTIPO",
+    monumentalTitle: "INOVADOR",
+    overviewDescription: "Uma inovação agrícola revolucionária que transforma bananas comuns em produtos Nike-branded através de tecnologia de moldagem de crescimento natural.",
+    overviewFeature1: "100 moldes de policarbonato reutilizáveis para teste piloto",
+    overviewFeature2: "Monitoramento de cultivo de 12 semanas com ajustes semanais",
+    overviewFeature3: "Análise de escalabilidade para produção comercial",
     
     // Technical Requirements
     technicalRequirementsLabel: "REQUISITOS TÉCNICOS",
@@ -495,13 +495,13 @@ export const translations = {
     creativeLabel: "CONCEITO",
     creativeBrandTitle1: "PROJEÇÃO",
     creativeBrandTitle2: "MAPEADA",
-    creativeBrandConceptTitle: '"Ir Contra a Maré Nos Faz Gigantes" - Projeção no Estádio',
-    creativeBrandConceptIntro: "Ativação promocional interativa que traz a emoção do cassino ao metrô:",
+    creativeBrandConceptTitle: '"Natureza Encontra Inovação" - Protótipo Banana Swoosh',
+    creativeBrandConceptIntro: "Branding agrícola revolucionário através do crescimento natural:",
     creativeBrandConcept: [
-      "EMOÇÃO - Emoção real da roleta em ambiente seguro e público do metrô",
-      "ENGAJAMENTO - Participação em tempo real com distribuição instantânea de prêmios",
-      "ACESSIBILIDADE - Experiência gratuita e divertida para todos os passageiros",
-      "TECNOLOGIA - Inovação digital combinando conteúdo pré-gravado com interação ao vivo"
+      "INOVAÇÃO - Primeira produção branded cultivada naturalmente usando moldagem 3D",
+      "SUSTENTABILIDADE - Branding ecológico que trabalha com a natureza",
+      "ESCALABILIDADE - Teste piloto com 100 moldes para viabilidade comercial",
+      "EXCLUSIVIDADE - Frutas Nike-branded únicas para ativações premium"
     ],
     
     // Client info
@@ -612,15 +612,15 @@ export const translations = {
     termsDescription: "Termos comerciais garantem entendimento claro do escopo do projeto, entregas e cronograma de produção.",
     
     termsConditions: [
-      "O investimento inclui sistema completo de ativação de cassino digital e operação de 7 dias.",
-      "Prazo de setup: 40 dias úteis incluindo registro SPA/MF, alvarás SMUL e treinamento da equipe.",
-      "Operação: 6 horas diárias, 72 sorteios totais, jornada do participante de 5min 50s por ciclo.",
-      "Participação limitada a 1 vez por dia por CPF com verificação de idade (18+) e conformidade LGPD.",
-      "Sistema completo: integração JCDecaux (1h/dia), estande LED (6h/dia), 4 totens cadastro, balcão prêmios.",
-      "Ativação promocional de alto impacto com engajamento mensurável e resultados de geração de leads.",
-      "Os direitos autorais da identidade visual e design da ativação pertencem à THE FORCE.",
-      "Alterações no conceito ou escopo operacional após aprovação podem gerar custos adicionais.",
-      "Entrega final inclui documentação operacional completa e relatórios detalhados de performance."
+      "Investimento inclui design completo do molde 3D, produção de 100 unidades e teste piloto de 12 semanas.",
+      "Cronograma de desenvolvimento: 30 dias para design do molde, 45 dias produção, 84 dias monitoramento cultivo.",
+      "Pagamento: 40% na contratação, 40% início produção, 20% na entrega dos moldes.",
+      "Fase 1 — Design do Molde & Prototipagem: desenvolvimento técnico dos moldes 3D Swoosh.",
+      "Exclusões: custos agrícolas, plantação/terreno, mão de obra cultivo, transporte, certificações orgânicas.",
+      "Propriedade intelectual do design do molde e metodologia de branding pertence à THE FORCE.",
+      "Alterações nas especificações técnicas ou escopo de produção podem gerar custos adicionais.",
+      "Teste piloto inclui relatórios semanais de monitoramento e análise final de escalabilidade.",
+      "Entrega final inclui 100 moldes reutilizáveis e documentação técnica completa."
     ],
     
     // Contact information

@@ -4,8 +4,8 @@ import "./globals.css"
 import { LanguageProvider } from "@/contexts/language-context"
 
 export const metadata: Metadata = {
-  title: "NIKE × VASCO | Proposta — Projeção Mapeada no Estádio São Januário",
-  description: "Interactive promotional activation proposal for Betano Roda Roleta at São Paulo Metro Station",
+  title: "SWOOSH BANANA NIKE | Proposta — Protótipo de Produção Branded",
+  description: "Revolutionary agricultural innovation proposal for naturally branded produce through 3D molding technology",
   generator: 'v0.dev',
   icons: {
     icon: [

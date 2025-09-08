@@ -54,8 +54,8 @@ export default function BananaBudget() {
               'Nem todos os frutos serão aproveitáveis – medir taxa de sucesso faz parte do estudo'
             ]).map((point, index) => (
               <li key={index} className="flex items-start">
-                <span className="text-yellow-400 mr-3">•</span>
-                <span className="text-gray-300">{point}</span>
+                <span className="text-white mr-3">•</span>
+                <span className="text-white/70">{point}</span>
               </li>
             ))}
           </ul>
@@ -76,12 +76,12 @@ export default function BananaBudget() {
             <ul className="space-y-2 text-sm text-gray-300">
               {(isEnglish ? bananaSwooshBudget.prototypeDevelopment.design.items : [
                 'Criação do molde no formato Swoosh em duas metades com trava',
-                'Material: Policarbonato transparente (espessura 2-3mm)',
+                'Material: Policarbonato transparente (espessura 4mm)',
                 'Resistente a sol, chuva e pressão do crescimento',
                 'Micro-furos de ventilação para evitar condensação e fungos'
               ]).map((item, index) => (
                 <li key={index} className="flex items-start">
-                  <span className="text-yellow-400 mr-2 mt-1">›</span>
+                  <span className="text-white mr-2 mt-1">›</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -104,7 +104,7 @@ export default function BananaBudget() {
                 'Cada peça pode ser aplicada em múltiplos frutos ao longo de diferentes ciclos de cultivo'
               ]).map((item, index) => (
                 <li key={index} className="flex items-start">
-                  <span className="text-green-400 mr-2 mt-1">›</span>
+                  <span className="text-white mr-2 mt-1">›</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -128,7 +128,7 @@ export default function BananaBudget() {
                 'Retirada do molde 7-10 dias antes da colheita para finalização da casca'
               ]).map((item, index) => (
                 <li key={index} className="flex items-start">
-                  <span className="text-blue-400 mr-2 mt-1">›</span>
+                  <span className="text-white mr-2 mt-1">›</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -158,8 +158,8 @@ export default function BananaBudget() {
               'Validar a escalabilidade com dados concretos sobre perdas, tempo de cultivo e manutenção em campo'
             ]).map((item, index) => (
               <li key={index} className="flex items-start">
-                <span className="text-purple-400 mr-3">✓</span>
-                <span className="text-gray-300">{item}</span>
+                <span className="text-white mr-3">✓</span>
+                <span className="text-white/70">{item}</span>
               </li>
             ))}
           </ul>
@@ -199,8 +199,8 @@ export default function BananaBudget() {
                 'Relatório final com dados de escalabilidade'
               ]).map((item, index) => (
                 <div key={index} className="flex items-start">
-                  <span className="text-yellow-400 mr-2 mt-1">✓</span>
-                  <span className="text-gray-300 text-sm">{item}</span>
+                  <span className="text-white mr-2 mt-1">✓</span>
+                  <span className="text-white/70 text-sm">{item}</span>
                 </div>
               ))}
             </div>
