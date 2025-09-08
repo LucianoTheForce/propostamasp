@@ -4,8 +4,8 @@ import "./globals.css"
 import { LanguageProvider } from "@/contexts/language-context"
 
 export const metadata: Metadata = {
-  title: "SWOOSH BANANA NIKE | Proposta — Protótipo de Produção Branded",
-  description: "Revolutionary agricultural innovation proposal for naturally branded produce through 3D molding technology",
+  title: "Banana Swoosh Nike | THE FORCE™",
+  description: "Revolutionary Agricultural Branding - Natural Swoosh-Shaped Bananas",
   generator: 'v0.dev',
   icons: {
     icon: [
