@@ -28,8 +28,10 @@ import { DynamicText } from "@/components/dynamic-text"
 import { LanguageToggle } from "@/components/language-toggle"
 import { useLanguage } from "@/contexts/language-context"
 import { InteractiveLogoHero } from "@/components/interactive-logo-hero"
-// Import Banana Budget component
-import BananaBudget from "@/components/banana-budget"
+// Import MASP Budget component
+import MaspBudget from "@/components/masp-budget"
+// Import The Force Proposal component
+import TheForceProposal from "@/components/theforce-proposal"
 
 
 
@@ -191,7 +193,7 @@ export default function Home() {
                         }}
                       >
                         <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                          SWOOSH BANANA
+                          FESTA MASP 2025
                         </AdvancedTextAnimation>
                       </div>
                       <div
@@ -210,9 +212,8 @@ export default function Home() {
                           staggerChildren={0.03}
                           letterSpacing="-0.03em"
                         >
-                          NIKE
+                          SYMBIOTIC CODE
                         </AdvancedTextAnimation>
-                        <span className="text-xs align-top relative" style={{ top: "0.5rem", marginLeft: "-0.1em" }}>®</span>
                       </div>
                     </div>
                   </MagneticElement>
@@ -224,7 +225,7 @@ export default function Home() {
               <div className="h-1 w-24 bg-black/50 rounded-full mb-8"></div>
               <h3 className="heading-large font-sans text-pretty">
                 <AdvancedTextAnimation type="reveal" delay={0.8} letterSpacing="-0.02em">
-                  {t('tagline')}
+                  {language === 'pt' ? 'Conteúdos Imersivos para Experiências Transformadoras' : 'Immersive Content for Transformative Experiences'}
                 </AdvancedTextAnimation>
               </h3>
             </div>
@@ -277,11 +278,11 @@ export default function Home() {
                 <DynamicText
                   prefix="©THE FORCE creates "
                   phrases={[
-                    "immersive brand experiences.",
-                    "cutting-edge visual identities.",
-                    "revolutionary branded produce.",
-                    "memorable event productions.",
-                    "innovative spatial narratives."
+                    "symbiotic digital experiences.",
+                    "living code narratives.",
+                    "ecological visual systems.",
+                    "immersive organism environments.",
+                    "self-organizing digital ecologies."
                   ]}
                   interval={5000}
                 />
@@ -292,15 +293,16 @@ export default function Home() {
 
             <div className="mt-[40vh] mb-8 relative z-10">
               <p className="body-large font-sans max-w-3xl mb-4">
-                THE FORCE is an agency and production company that combines art and technology to create
-                expanded narratives and surprising experiences. We specialize in innovative branding solutions,
-                immersive experiences, and cutting-edge product development that transforms brands into
-                unforgettable experiences.
+                THE FORCE é uma agência e produtora que combina arte e tecnologia para criar
+                narrativas expandidas e experiências surpreendentes. Especializamos em soluções inovadoras
+                de branding, experiências imersivas e desenvolvimento de conteúdo de ponta que transforma
+                espaços em ecossistemas digitais vivos.
               </p>
               <p className="body-large font-sans max-w-3xl">
-                For the Swoosh Banana prototype, we're pioneering branded produce through natural growth.
-                A revolutionary agricultural innovation that transforms ordinary bananas into Nike-branded
-                fruits, creating a unique intersection of nature and brand identity through 3D molding technology.
+                Para a Festa MASP 2025 - Symbiotic Code, criamos uma narrativa visual que explora
+                a simbiose entre sistemas ecológicos e código digital. Uma experiência onde fluxos de energia
+                e ciclos de matéria se manifestam através de projeções imersivas que transformam o espaço
+                em um organismo digital pulsante.
               </p>
             </div>
 
@@ -327,22 +329,22 @@ export default function Home() {
                   <div className="w-6 h-6 border border-white flex items-center justify-center">
                     <div className="w-2 h-2 bg-white"></div>
                   </div>
-                  <div className="caption text-white/60">{t('projectLabel')}</div>
+                  <div className="caption text-white/60">{language === 'pt' ? 'EVENTO' : 'EVENT'}</div>
                 </div>
                 <div className="mb-6">
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      SWOOSH BANANA
+                      FESTA MASP
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.1} letterSpacing="-0.03em">
-                      PROTOTYPE
+                      2025
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.2} letterSpacing="-0.03em">
-                      NIKE
+                      SYMBIOTIC CODE
                     </AdvancedTextAnimation>
                   </h2>
                 </div>
@@ -351,27 +353,32 @@ export default function Home() {
 
               <div className="md:col-span-8 section-content">
                 <div className="mb-8">
-                  <h3 className="heading-medium font-sans mb-4 text-white">{language === 'pt' ? 'Escopo do Projeto' : 'Project Scope'}</h3>
+                  <h3 className="heading-medium font-sans mb-4 text-white">{language === 'pt' ? 'Conceito da Experiência' : 'Experience Concept'}</h3>
+                  <p className="text-white/80 body-medium font-sans mb-6">
+                    {language === 'pt'
+                      ? 'Symbiotic Code explora a simbiose entre ecologia e sistemas digitais, transformando o MASP em um organismo digital vivo através de projeções imersivas que revelam fluxos de energia e ciclos de matéria.'
+                      : 'Symbiotic Code explores the symbiosis between ecology and digital systems, transforming MASP into a living digital organism through immersive projections that reveal energy flows and matter cycles.'}
+                  </p>
                   <ul className="space-y-3 text-white/80 body-medium font-sans">
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Design e produção de moldes 3D no formato Swoosh' : '3D Swoosh-shaped mold design and production'}</span>
+                      <span>{language === 'pt' ? 'Video Mapping no Salão Principal - 4 minutos de narrativa visual' : 'Main Hall Video Mapping - 4 minutes of visual narrative'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? '100 moldes reutilizáveis em policarbonato transparente' : '100 reusable transparent polycarbonate molds'}</span>
+                      <span>{language === 'pt' ? 'Projeção nas 45 Mesas de Jantar - Superfícies vivas' : 'Projection on 45 Dining Tables - Living surfaces'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Aplicação em bananas jovens (8-10cm) pós-floração' : 'Application on young bananas (8-10cm) post-flowering'}</span>
+                      <span>{language === 'pt' ? 'Projeção Imersiva na Entrada e Escadas - Portal sensorial' : 'Immersive Entrance and Stairs Projection - Sensory portal'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Monitoramento de cultivo por 12 semanas' : '12-week cultivation monitoring program'}</span>
+                      <span>{language === 'pt' ? 'Redes miceliais e padrões fractais auto-organizados' : 'Mycelial networks and self-organizing fractal patterns'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Análise de escalabilidade e rendimento' : 'Scalability and yield analysis'}</span>
+                      <span>{language === 'pt' ? 'Layers geométricos dinâmicos reconfigurando o espaço' : 'Dynamic geometric layers reconfiguring space'}</span>
                     </li>
                   </ul>
                 </div>
@@ -381,18 +388,18 @@ export default function Home() {
 
             <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-6 section-content">
               <MagneticElement className="p-6 hover-lift">
-                <div className="caption text-white/60 mb-2">{t('clientLabel')}</div>
+                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'CLIENTE' : 'CLIENT'}</div>
                 <div className="heading-medium font-sans">
                   <AdvancedTextAnimation delay={0.2} type="slide" direction="up">
-                    NIKE BRASIL
+                    FESTA MASP 2025
                   </AdvancedTextAnimation>
                 </div>
               </MagneticElement>
               <MagneticElement className="p-6 hover-lift">
-                <div className="caption text-white/60 mb-2">{t('studioLabel')}</div>
+                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'AGÊNCIA/PRODUTORA' : 'AGENCY/PRODUCER'}</div>
                 <div className="heading-medium font-sans">
                   <AdvancedTextAnimation delay={0.6} type="slide" direction="up">
-                    {t('studioName')}
+                    THE FORCE.CC
                   </AdvancedTextAnimation>
                 </div>
                 <div className="caption text-white/60 mt-1">{t('location')}</div>
@@ -428,28 +435,28 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'MOLDE 3D' : '3D MOLD'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Molde em duas metades formato Swoosh com trava de segurança' : 'Two-piece Swoosh-shaped mold with safety lock'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'PROJETORES' : 'PROJECTORS'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? '70 projetores laser de alta performance (4.000 a 10.000 lumens)' : '70 high-performance laser projectors (4,000 to 10,000 lumens)'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'MATERIAL' : 'MATERIAL'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Policarbonato transparente, 4mm espessura, resistente UV' : 'Transparent polycarbonate, 4mm thickness, UV resistant'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'SERVIDORES' : 'SERVERS'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? '20 servidores de mídia com software de mapeamento dedicado' : '20 media servers with dedicated mapping software'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'VENTILAÇÃO' : 'VENTILATION'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Micro-furos para prevenir condensação e fungos' : 'Micro-holes to prevent condensation and fungi'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'SOFTWARE' : 'SOFTWARE'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Resolume para salão principal, Watchout para áreas secundárias' : 'Resolume for main hall, Watchout for secondary areas'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'PRODUÇÃO' : 'PRODUCTION'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? '100 moldes reutilizáveis para múltiplos ciclos de cultivo' : '100 reusable molds for multiple cultivation cycles'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'MAPEAMENTO' : 'MAPPING'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Calibração 3D precisa de todas as superfícies de projeção' : 'Precise 3D calibration of all projection surfaces'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'APLICAÇÃO' : 'APPLICATION'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Instalação em bananas jovens 8-10cm pós-floração' : 'Installation on young bananas 8-10cm post-flowering'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'SINCRONIZAÇÃO' : 'SYNCHRONIZATION'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Sistema de timecode para sincronização perfeita entre áreas' : 'Timecode system for perfect synchronization between areas'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'MONITORAMENTO' : 'MONITORING'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Acompanhamento semanal por 12 semanas até colheita' : 'Weekly monitoring for 12 weeks until harvest'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'BACKUP' : 'BACKUP'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Sistema redundante com failover automático para garantir continuidade' : 'Redundant system with automatic failover to ensure continuity'}</p>
               </div>
             </div>
           </div>
@@ -480,7 +487,7 @@ export default function Home() {
                 </div>
                 <div className="body-large text-white/80 font-sans text-pretty">
                   <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                    {language === 'pt' ? 'Elementos completos do protótipo Banana Swoosh' : 'Complete Banana Swoosh prototype elements'}
+                    {language === 'pt' ? 'Experiências imersivas com conteúdos autorais' : 'Immersive experiences with original content'}
                   </AdvancedTextAnimation>
                 </div>
               </div>
@@ -496,12 +503,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Design & Prototipagem' : 'Design & Prototyping'}
+                      {language === 'pt' ? 'Vídeo Mapping Salão Principal' : 'Main Hall Video Mapping'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.2} type="fade">
-                      {language === 'pt' ? 'Design e desenvolvimento do molde 3D Swoosh com engenharia de precisão' : '3D Swoosh mold design and development with precision engineering'}
+                      {language === 'pt' ? 'Transformação do salão em organismo digital pulsante com projeções nas testeiras e escadas' : 'Hall transformation into pulsating digital organism with projections on headers and stairs'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -515,12 +522,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Produção dos Moldes' : 'Mold Production'}
+                      {language === 'pt' ? 'Projeção nas Mesas de Jantar' : 'Dining Tables Projection'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.3} type="fade">
-                      {language === 'pt' ? 'Fabricação de 100 moldes em policarbonato transparente resistente UV' : 'Manufacturing of 100 UV-resistant transparent polycarbonate molds'}
+                      {language === 'pt' ? '45 mesas se tornam superfícies vivas para narrativas visuais de organismos digitais' : '45 tables become living surfaces for visual narratives of digital organisms'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -534,12 +541,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Teste Piloto' : 'Pilot Test'}
+                      {language === 'pt' ? 'Projeção Imersiva na Entrada' : 'Immersive Entrance Projection'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.4} type="fade">
-                      {language === 'pt' ? 'Aplicação em campo e monitoramento de cultivo por 12 semanas' : 'Field application and 12-week cultivation monitoring'}
+                      {language === 'pt' ? 'Corredor e escadas como portal para o universo simbiótico da festa' : 'Corridor and stairs as portal to the symbiotic universe of the party'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -553,12 +560,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Análise de Resultados' : 'Results Analysis'}
+                      {language === 'pt' ? 'Conteúdo Autoral' : 'Original Content'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.5} type="fade">
-                      {language === 'pt' ? 'Relatório de escalabilidade, rendimento e viabilidade comercial' : 'Scalability, yield, and commercial viability report'}
+                      {language === 'pt' ? 'Criação de narrativa visual exclusiva explorando simbiose entre ecologia e código digital' : 'Creation of exclusive visual narrative exploring symbiosis between ecology and digital code'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -591,12 +598,12 @@ export default function Home() {
               </div>
               <div className="body-large text-white/80 font-sans text-pretty max-w-3xl">
                 <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                  {language === 'pt' ? 'Desenvolvimento completo do molde 3D Swoosh e teste piloto com 100 unidades para validação de viabilidade' : 'Complete 3D Swoosh mold development and pilot test with 100 units for feasibility validation'}
+                  {language === 'pt' ? 'Conteúdos imersivos para transformar o MASP em um ecossistema digital vivo através de projeções mapeadas' : 'Immersive content to transform MASP into a living digital ecosystem through mapped projections'}
                 </AdvancedTextAnimation>
               </div>
             </div>
 
-            <BananaBudget />
+            <TheForceProposal />
           </div>
         </section>
 
@@ -622,7 +629,7 @@ export default function Home() {
                   </div>
                   <div className="body-medium text-white/80 mb-6 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" type="fade">
-                      {language === 'pt' ? 'Processo estruturado para execução do protótipo Banana Swoosh' : 'Structured process for Banana Swoosh prototype execution'}
+                      {language === 'pt' ? 'Processo estruturado para execução das projeções imersivas' : 'Structured process for immersive projections execution'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="space-y-4 mb-6">
@@ -630,7 +637,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">01</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.1} type="fade">
-                          {language === 'pt' ? 'Aprovação do design 3D do molde Swoosh e especificações técnicas' : '3D Swoosh mold design approval and technical specifications'}
+                          {language === 'pt' ? 'Aprovação do conceito criativo e narrativa visual' : 'Creative concept and visual narrative approval'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -638,7 +645,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">02</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.2} type="fade">
-                          {language === 'pt' ? 'Seleção de parceiro agrícola e plantação adequada' : 'Agricultural partner and suitable plantation selection'}
+                          {language === 'pt' ? 'Visita técnica e mapeamento dos espaços' : 'Technical visit and space mapping'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -646,7 +653,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">03</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.3} type="fade">
-                          {language === 'pt' ? 'Produção dos 100 moldes em policarbonato' : 'Production of 100 polycarbonate molds'}
+                          {language === 'pt' ? 'Produção dos conteúdos e animações' : 'Content and animation production'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -654,7 +661,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">04</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.4} type="fade">
-                          {language === 'pt' ? 'Instalação em campo e início do monitoramento' : 'Field installation and monitoring start'}
+                          {language === 'pt' ? 'Instalação técnica e configuração dos equipamentos' : 'Technical installation and equipment setup'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -662,7 +669,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">05</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.5} type="fade">
-                          {language === 'pt' ? 'Colheita e análise de resultados' : 'Harvest and results analysis'}
+                          {language === 'pt' ? 'Testes e operação durante o evento' : 'Testing and operation during the event'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -723,7 +730,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">02</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.2} type="fade">
-                          {language === 'pt' ? 'Pagamento: 40% na contratação • 40% início produção • 20% na entrega dos moldes' : 'Payment: 40% upon contracting • 40% production start • 20% upon molds delivery'}
+                          {language === 'pt' ? 'Pagamento: 50% na contratação • 30% início produção • 20% na entrega final' : 'Payment: 50% upon contracting • 30% production start • 20% upon final delivery'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -731,7 +738,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">03</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.3} type="fade">
-                          {language === 'pt' ? 'Fase 1 — Design do Molde & Prototipagem: desenvolvimento técnico dos moldes 3D Swoosh' : 'Phase 1 — Mold Design & Prototyping: technical development of 3D Swoosh molds'}
+                          {language === 'pt' ? 'Fase 1 — Pré-produção: mapeamento 3D dos espaços e desenvolvimento conceitual' : 'Phase 1 — Pre-production: 3D mapping of spaces and conceptual development'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -739,7 +746,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">04</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.4} type="fade">
-                          {language === 'pt' ? 'Tributos/Retenções: não inclusos no orçamento' : 'Taxes/Withholdings: not included in budget'}
+                          {language === 'pt' ? 'Produção: 30 dias para criação dos conteúdos' : 'Production: 30 days for content creation'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -747,7 +754,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">05</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.5} type="fade">
-                          {language === 'pt' ? 'Exclusões: custos agrícolas; plantação/terreno; mão de obra de cultivo; transporte de produção; certificações orgânicas' : 'Exclusions: agricultural costs; plantation/land; cultivation labor; production transport; organic certifications'}
+                          {language === 'pt' ? 'Diferenciais: Conteúdo autoral exclusivo • Integração narrativa entre ambientes • Experiência imersiva completa' : 'Differentiators: Exclusive original content • Narrative integration between environments • Complete immersive experience'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -806,7 +813,7 @@ export default function Home() {
                         <div className="caption text-white/60 mb-1">Client</div>
                         <div className="body-large font-sans">
                           <AdvancedTextAnimation delay={0.4} fontWeight="bold" type="fade">
-                            NIKE BRASIL
+                            FESTA MASP 2025
                           </AdvancedTextAnimation>
                         </div>
                       </div>
@@ -821,7 +828,7 @@ export default function Home() {
                       <div className="pt-4">
                         <button
                           onClick={() => {
-                            const message = encodeURIComponent(language === 'pt' ? "Swoosh Banana Nike - Proposta aprovada! Vamos começar!" : "Swoosh Banana Nike - Proposal approved! Let's get started!")
+                            const message = encodeURIComponent(language === 'pt' ? "Festa MASP 2025 Symbiotic Code - Proposta aprovada! Vamos começar!" : "MASP Party 2025 Symbiotic Code - Proposal approved! Let's get started!")
                             window.open(`https://wa.me/5511986243000?text=${message}`, '_blank')
                           }}
                           className="button-2025 w-full uppercase tracking-widest text-xs"

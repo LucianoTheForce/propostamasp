@@ -4,8 +4,8 @@ import "./globals.css"
 import { LanguageProvider } from "@/contexts/language-context"
 
 export const metadata: Metadata = {
-  title: "Banana Swoosh Nike | THE FORCE™",
-  description: "Revolutionary Agricultural Branding - Natural Swoosh-Shaped Bananas",
+  title: "MASP 2025 - Symbiotic Code | The Force",
+  description: "Experiências imersivas para Festa MASP 2025 - Symbiotic Code",
   generator: 'v0.dev',
   icons: {
     icon: [
