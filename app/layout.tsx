@@ -4,8 +4,8 @@ import "./globals.css"
 import { LanguageProvider } from "@/contexts/language-context"
 
 export const metadata: Metadata = {
-  title: "Time Warp Brasil 2026 | The Force",
-  description: "Direção Técnica e Criativa de Palco para Time Warp Brasil 2026",
+  title: "Ultragaz Mascots Evolution | The Force",
+  description: "Evolução dos Mascotes Ultragaz - Plataforma Proprietária Completa",
   generator: 'v0.dev',
   icons: {
     icon: [

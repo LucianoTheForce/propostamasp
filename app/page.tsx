@@ -193,26 +193,7 @@ export default function Home() {
                         }}
                       >
                         <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                          TIME WARP
-                        </AdvancedTextAnimation>
-                      </div>
-                      <div
-                        className="font-sans inline-flex items-start"
-                        style={{
-                          fontSize: "min(8vw, 8rem)",
-                          lineHeight: "0.85",
-                          letterSpacing: "-0.05em",
-                          fontWeight: "900",
-                          whiteSpace: "nowrap",
-                          paddingLeft: "0.25rem",
-                        }}
-                      >
-                        <AdvancedTextAnimation
-                          type="letter"
-                          staggerChildren={0.03}
-                          letterSpacing="-0.03em"
-                        >
-                          BRASIL 2026
+                          ULTRAGAZ
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -225,7 +206,7 @@ export default function Home() {
               <div className="h-1 w-24 bg-black/50 rounded-full mb-8"></div>
               <h3 className="heading-large font-sans text-pretty">
                 <AdvancedTextAnimation type="reveal" delay={0.8} letterSpacing="-0.02em">
-                  {language === 'pt' ? 'Direção Técnica e Criativa de Palco' : 'Stage Technical and Creative Direction'}
+                  {language === 'pt' ? 'Evolução dos Mascotes' : 'Mascots Evolution'}
                 </AdvancedTextAnimation>
               </h3>
             </div>
@@ -278,11 +259,11 @@ export default function Home() {
                 <DynamicText
                   prefix="©THE FORCE creates "
                   phrases={[
-                    "immersive stage experiences.",
-                    "minimal techno environments.",
-                    "geometric visual systems.",
-                    "rhythmic spatial narratives.",
-                    "integrated light architectures."
+                    "proprietary character platforms.",
+                    "intelligent mascot systems.",
+                    "scalable creative tools.",
+                    "premium digital experiences.",
+                    "branded character evolution."
                   ]}
                   interval={5000}
                 />
@@ -295,13 +276,13 @@ export default function Home() {
               <p className="body-large font-sans max-w-3xl mb-4">
                 THE FORCE é uma agência e produtora que combina arte e tecnologia para criar
                 narrativas expandidas e experiências surpreendentes. Especializamos em soluções inovadoras
-                de branding, experiências imersivas e desenvolvimento de conteúdo de ponta que transforma
-                espaços em ambientes memoráveis.
+                de branding, plataformas proprietárias e desenvolvimento de ferramentas criativas que transformam
+                a gestão de personagens em experiências memoráveis.
               </p>
               <p className="body-large font-sans max-w-3xl">
-                Para o Time Warp Brasil 2026, trazemos nossa expertise em direção técnica e criativa de palco,
-                criando um ambiente que respira com a música techno. Minimal, preciso, impactante. Uma experiência
-                visual integrada que se torna parte essencial do evento.
+                Para a Ultragaz, em parceria com a Rastro, desenvolvemos uma plataforma proprietária completa
+                para criação, customização e gestão dos mascotes Ultrinho e Ully. Uma solução premium que combina
+                refinamento visual, interface intuitiva e tecnologia escalável para a nova era de comunicação da marca.
               </p>
             </div>
 
@@ -328,22 +309,22 @@ export default function Home() {
                   <div className="w-6 h-6 border border-white flex items-center justify-center">
                     <div className="w-2 h-2 bg-white"></div>
                   </div>
-                  <div className="caption text-white/60">{language === 'pt' ? 'EVENTO' : 'EVENT'}</div>
+                  <div className="caption text-white/60">{language === 'pt' ? 'PROJETO' : 'PROJECT'}</div>
                 </div>
                 <div className="mb-6">
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      TIME WARP
+                      EVOLUÇÃO
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.1} letterSpacing="-0.03em">
-                      BRASIL
+                      MASCOTES
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.2} letterSpacing="-0.03em">
-                      2026
+                      ULTRAGAZ
                     </AdvancedTextAnimation>
                   </h2>
                 </div>
@@ -352,32 +333,32 @@ export default function Home() {
 
               <div className="md:col-span-8 section-content">
                 <div className="mb-8">
-                  <h3 className="heading-medium font-sans mb-4 text-white">{language === 'pt' ? 'Conceito & Direção Criativa' : 'Concept & Creative Direction'}</h3>
+                  <h3 className="heading-medium font-sans mb-4 text-white">{language === 'pt' ? 'Contexto & Proposta' : 'Context & Proposal'}</h3>
                   <p className="text-white/80 body-medium font-sans mb-6">
                     {language === 'pt'
-                      ? 'Definição de linguagem visual do palco alinhada à identidade Time Warp (minimal/techno, linhas limpas, geometria e ritmo). Criação de ambientes que transformam o espaço em uma experiência visual integrada.'
-                      : 'Definition of stage visual language aligned with Time Warp identity (minimal/techno, clean lines, geometry and rhythm). Creating environments that transform space into an integrated visual experience.'}
+                      ? 'A Ultragaz entra em uma nova era de comunicação com a evolução dos mascotes Ultrinho e Ully. Em parceria com a agência Rastro, The Force desenvolve uma plataforma proprietária completa para criação, customização e gestão dos personagens.'
+                      : 'Ultragaz enters a new era of communication with the evolution of mascots Ultrinho and Ully. In partnership with Rastro agency, The Force develops a complete proprietary platform for character creation, customization and management.'}
                   </p>
                   <ul className="space-y-3 text-white/80 body-medium font-sans">
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Materiais, volumetria e elementos de destaque (totens, frames, estruturas modulares)' : 'Materials, volumetry and highlight elements (totems, frames, modular structures)'}</span>
+                      <span>{language === 'pt' ? 'Refinamento visual e integração completa dos personagens' : 'Visual refinement and complete character integration'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Moodboard e mapa de atmosferas por momento (warm-up / peak / closing)' : 'Moodboard and atmosphere map by moment (warm-up / peak / closing)'}</span>
+                      <span>{language === 'pt' ? 'Interface proprietária premium com modo escuro sofisticado' : 'Premium proprietary interface with sophisticated dark mode'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Projeto técnico com plantas, vistas e implantação no espaço' : 'Technical project with plans, views and space implementation'}</span>
+                      <span>{language === 'pt' ? 'Biblioteca de variações e histórico visual' : 'Variation library and visual history'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Integração completa entre luz e vídeo' : 'Complete integration between light and video'}</span>
+                      <span>{language === 'pt' ? 'Documentação completa e treinamento' : 'Complete documentation and training'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Lista de materiais e fornecedores indicados' : 'List of materials and indicated suppliers'}</span>
+                      <span>{language === 'pt' ? 'Suporte inicial de 2 meses' : '2-month initial support'}</span>
                     </li>
                   </ul>
                 </div>
@@ -387,19 +368,19 @@ export default function Home() {
 
             <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-6 section-content">
               <MagneticElement className="p-6 hover-lift">
-                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'EVENTO' : 'EVENT'}</div>
+                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'CLIENTE' : 'CLIENT'}</div>
                 <div className="heading-medium font-sans">
                   <AdvancedTextAnimation delay={0.2} type="slide" direction="up">
-                    TIME WARP BRASIL 2026
+                    ULTRAGAZ
                   </AdvancedTextAnimation>
                 </div>
-                <div className="caption text-white/60 mt-1">{language === 'pt' ? '1 e 2 de maio' : 'May 1-2'}</div>
+                <div className="caption text-white/60 mt-1">{language === 'pt' ? 'Evolução dos Mascotes' : 'Mascots Evolution'}</div>
               </MagneticElement>
               <MagneticElement className="p-6 hover-lift">
-                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'DIREÇÃO CRIATIVA E TÉCNICA' : 'CREATIVE & TECHNICAL DIRECTION'}</div>
+                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'PLATAFORMA & DESENVOLVIMENTO' : 'PLATFORM & DEVELOPMENT'}</div>
                 <div className="heading-medium font-sans">
                   <AdvancedTextAnimation delay={0.6} type="slide" direction="up">
-                    THE FORCE.CC
+                    THE FORCE + RASTRO
                   </AdvancedTextAnimation>
                 </div>
                 <div className="caption text-white/60 mt-1">{t('location')}</div>
@@ -435,28 +416,28 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'PROJETO TÉCNICO' : 'TECHNICAL PROJECT'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Desenhos técnicos: planta baixa, vista frontal, lateral e implantação' : 'Technical drawings: floor plan, front view, side view and implementation'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'VISUAL SOFISTICADO' : 'SOPHISTICATED VISUAL'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Dark mode premium com tipografia refinada e navegação lateral intuitiva' : 'Premium dark mode with refined typography and intuitive side navigation'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'CONCEITO CRIATIVO' : 'CREATIVE CONCEPT'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Moodboard, narrativa e diretrizes visuais alinhadas à identidade Time Warp' : 'Moodboard, narrative and visual guidelines aligned with Time Warp identity'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'INTERAÇÃO FLUIDA' : 'FLUID INTERACTION'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Controle instantâneo de poses e expressões com feedback visual em tempo real' : 'Instant pose and expression control with real-time visual feedback'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'INTEGRAÇÃO LUZ & VÍDEO' : 'LIGHT & VIDEO INTEGRATION'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Compatibilização completa entre desenho de luz e vídeo' : 'Complete compatibility between light and video design'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'PERFORMANCE ESTÁVEL' : 'STABLE PERFORMANCE'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Arquitetura escalável para gestão eficiente dos personagens' : 'Scalable architecture for efficient character management'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'MATERIAIS' : 'MATERIALS'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Volumetria, elementos de destaque e estruturas modulares' : 'Volumetry, highlight elements and modular structures'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'BIBLIOTECA COMPLETA' : 'COMPLETE LIBRARY'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Sistema de variações e histórico visual para controle criativo total' : 'Variation system and visual history for total creative control'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'EQUIPE' : 'TEAM'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Direção criativa/técnica, designer CAD e assistência de produção' : 'Creative/technical direction, CAD designer and production assistance'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'DOCUMENTAÇÃO' : 'DOCUMENTATION'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Treinamento completo e documentação técnica para autonomia da equipe' : 'Complete training and technical documentation for team autonomy'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'VIABILIDADE' : 'VIABILITY'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Lista de materiais e fornecedores indicados' : 'List of materials and indicated suppliers'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'DESIGN PREMIUM' : 'PREMIUM DESIGN'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Produto refinado que reflete a excelência da marca Ultragaz' : 'Refined product that reflects Ultragaz brand excellence'}</p>
               </div>
             </div>
           </div>
@@ -503,12 +484,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Documento de Conceito' : 'Concept Document'}
+                      {language === 'pt' ? 'Plataforma Proprietária' : 'Proprietary Platform'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.2} type="fade">
-                      {language === 'pt' ? 'Moodboard, narrativa visual e diretrizes completas alinhadas à identidade Time Warp' : 'Moodboard, visual narrative and complete guidelines aligned with Time Warp identity'}
+                      {language === 'pt' ? 'Interface completa para criação, customização e gestão dos mascotes Ultrinho e Ully' : 'Complete interface for Ultrinho and Ully mascots creation, customization and management'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -522,12 +503,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Desenhos Técnicos' : 'Technical Drawings'}
+                      {language === 'pt' ? 'Refinamento Visual' : 'Visual Refinement'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.3} type="fade">
-                      {language === 'pt' ? 'Plantas, vistas e implantação em PDF + DWG/DXF com cotas e pontos críticos' : 'Plans, views and implementation in PDF + DWG/DXF with measurements and critical points'}
+                      {language === 'pt' ? 'Evolução e integração completa dos personagens com a identidade Ultragaz' : 'Complete character evolution and integration with Ultragaz identity'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -541,12 +522,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Mapa de Luz' : 'Light Map'}
+                      {language === 'pt' ? 'Treinamento & Suporte' : 'Training & Support'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.4} type="fade">
-                      {language === 'pt' ? 'Compatibilização completa entre desenho de luz e diretrizes visuais do palco' : 'Complete compatibility between light design and stage visual guidelines'}
+                      {language === 'pt' ? 'Documentação completa e suporte inicial de 2 meses para autonomia total' : 'Complete documentation and 2-month initial support for total autonomy'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -560,12 +541,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Guia de Vídeo' : 'Video Guide'}
+                      {language === 'pt' ? 'Arquitetura Escalável' : 'Scalable Architecture'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.5} type="fade">
-                      {language === 'pt' ? 'Referências de conteúdo e alinhamento com operação de vídeo do evento' : 'Content references and alignment with event video operation'}
+                      {language === 'pt' ? 'Sistema robusto preparado para crescimento e evolução contínua' : 'Robust system prepared for continuous growth and evolution'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -598,7 +579,7 @@ export default function Home() {
               </div>
               <div className="body-large text-white/80 font-sans text-pretty max-w-3xl">
                 <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                  {language === 'pt' ? 'Direção técnica e criativa para o palco Time Warp Brasil 2026' : 'Technical and creative direction for Time Warp Brasil 2026 stage'}
+                  {language === 'pt' ? 'Plataforma proprietária completa para evolução dos mascotes Ultragaz' : 'Complete proprietary platform for Ultragaz mascots evolution'}
                 </AdvancedTextAnimation>
               </div>
             </div>
@@ -614,7 +595,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center pb-4 border-b border-white/10">
                     <span className="body-medium font-sans">{language === 'pt' ? 'Valor total do projeto' : 'Total project value'}</span>
-                    <span className="heading-small font-sans font-bold">R$ 50.000,00</span>
+                    <span className="heading-small font-sans font-bold">R$ 520.000,00</span>
                   </div>
                   <div className="pt-4 space-y-2">
                     <p className="body-small text-white/70 font-sans">
@@ -624,7 +605,13 @@ export default function Home() {
                       • {language === 'pt' ? 'Forma de pagamento: 50% na aprovação / 50% na entrega final' : 'Payment terms: 50% upon approval / 50% upon final delivery'}
                     </p>
                     <p className="body-small text-white/70 font-sans">
-                      • {language === 'pt' ? 'Vigência da proposta: 7 dias a partir da data de envio' : 'Proposal validity: 7 days from send date'}
+                      • {language === 'pt' ? 'Vigência da proposta: 30 dias a partir da data de envio' : 'Proposal validity: 30 days from send date'}
+                    </p>
+                    <p className="body-small text-white/70 font-sans">
+                      • {language === 'pt' ? 'Prazo: 45 dias a partir da aprovação da ARP' : 'Timeline: 45 days from ARP approval'}
+                    </p>
+                    <p className="body-small text-white/70 font-sans">
+                      • {language === 'pt' ? 'Plus: Custos operacionais mensais baseados em volume de uso' : 'Plus: Monthly operational costs based on usage volume'}
                     </p>
                   </div>
                 </div>
@@ -655,7 +642,7 @@ export default function Home() {
                   </div>
                   <div className="body-medium text-white/80 mb-6 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" type="fade">
-                      {language === 'pt' ? 'Escopo do projeto de direção técnica e criativa' : 'Technical and creative direction project scope'}
+                      {language === 'pt' ? 'Escopo da plataforma proprietária de mascotes' : 'Proprietary mascot platform scope'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="space-y-4 mb-6">
@@ -663,7 +650,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">01</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.1} type="fade">
-                          {language === 'pt' ? 'Conceito criativo e moodboard com narrativa visual' : 'Creative concept and moodboard with visual narrative'}
+                          {language === 'pt' ? 'Plataforma web completa para criação e gestão de mascotes' : 'Complete web platform for mascot creation and management'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -671,7 +658,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">02</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.2} type="fade">
-                          {language === 'pt' ? 'Projeto técnico de palco com plantas e vistas' : 'Technical stage project with plans and views'}
+                          {language === 'pt' ? 'Interface premium com dark mode e navegação intuitiva' : 'Premium interface with dark mode and intuitive navigation'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -679,7 +666,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">03</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.3} type="fade">
-                          {language === 'pt' ? 'Integração de luz e vídeo com operação do evento' : 'Light and video integration with event operation'}
+                          {language === 'pt' ? 'Sistema de variações e biblioteca de expressões/poses' : 'Variation system and expression/pose library'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -687,7 +674,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">04</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.4} type="fade">
-                          {language === 'pt' ? 'Lista de materiais e fornecedores indicados' : 'List of materials and indicated suppliers'}
+                          {language === 'pt' ? 'Documentação técnica e treinamento completo da equipe' : 'Technical documentation and complete team training'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -695,7 +682,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">05</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.5} type="fade">
-                          {language === 'pt' ? 'Equipe: direção criativa/técnica, designer CAD e assistência' : 'Team: creative/technical direction, CAD designer and assistance'}
+                          {language === 'pt' ? 'Suporte inicial de 2 meses e arquitetura escalável' : '2-month initial support and scalable architecture'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -748,7 +735,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">01</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.1} type="fade">
-                          {language === 'pt' ? 'Validade: 7 dias a partir da data de envio' : 'Validity: 7 days from send date'}
+                          {language === 'pt' ? 'Validade: 30 dias a partir da data de envio' : 'Validity: 30 days from send date'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -764,7 +751,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">03</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.3} type="fade">
-                          {language === 'pt' ? 'NÃO INCLUI: Locações, operação técnica, estruturas, transporte, hospedagem, materiais cenográficos' : 'NOT INCLUDED: Rentals, technical operation, structures, transportation, accommodation, scenographic materials'}
+                          {language === 'pt' ? 'Prazo de Entrega: 45 dias corridos a partir da aprovação da ARP' : 'Delivery Timeline: 45 calendar days from ARP approval'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -772,7 +759,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">04</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.4} type="fade">
-                          {language === 'pt' ? 'Propriedade Intelectual: Projetos permanecem da The Force.cc até quitação total' : 'Intellectual Property: Projects remain with The Force.cc until full payment'}
+                          {language === 'pt' ? 'Plus: Custos operacionais mensais definidos conforme volume de uso da plataforma' : 'Plus: Monthly operational costs defined according to platform usage volume'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -780,7 +767,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">05</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.5} type="fade">
-                          {language === 'pt' ? 'Após pagamento: Licença de uso para Time Warp Brasil 2026, não exclusiva e intransferível' : 'After payment: Usage license for Time Warp Brasil 2026, non-exclusive and non-transferable'}
+                          {language === 'pt' ? 'Propriedade Intelectual: Plataforma permanece da The Force.cc, licença de uso para Ultragaz' : 'Intellectual Property: Platform remains with The Force.cc, usage license for Ultragaz'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -836,10 +823,10 @@ export default function Home() {
                         <div className="body-medium font-mono number-accent">{language === 'pt' ? 'São Paulo, Brasil' : 'São Paulo, Brazil'}</div>
                       </div>
                       <div>
-                        <div className="caption text-white/60 mb-1">Event</div>
+                        <div className="caption text-white/60 mb-1">{language === 'pt' ? 'Projeto' : 'Project'}</div>
                         <div className="body-large font-sans">
                           <AdvancedTextAnimation delay={0.4} fontWeight="bold" type="fade">
-                            TIME WARP BRASIL 2026
+                            {language === 'pt' ? 'ULTRAGAZ - EVOLUÇÃO DOS MASCOTES' : 'ULTRAGAZ - MASCOTS EVOLUTION'}
                           </AdvancedTextAnimation>
                         </div>
                       </div>
@@ -854,7 +841,7 @@ export default function Home() {
                       <div className="pt-4">
                         <button
                           onClick={() => {
-                            const message = encodeURIComponent(language === 'pt' ? "Time Warp Brasil 2026 - Proposta aprovada! Vamos começar!" : "Time Warp Brasil 2026 - Proposal approved! Let's get started!")
+                            const message = encodeURIComponent(language === 'pt' ? "Ultragaz Mascotes - Proposta aprovada! Vamos começar!" : "Ultragaz Mascots - Proposal approved! Let's get started!")
                             window.open(`https://wa.me/5511986243000?text=${message}`, '_blank')
                           }}
                           className="button-2025 w-full uppercase tracking-widest text-xs"
