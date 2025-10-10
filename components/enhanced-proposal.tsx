@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import React from "react"
 import { AdvancedTextAnimation } from "@/components/advanced-text-animation"
@@ -31,7 +31,7 @@ export function EnhancedProposal() {
             </div>
             <div className="flex-1">
               <div className="font-medium text-white mb-1">ABORDAGEM ATIVA</div>
-              <div className="text-sm text-white/80">Promotores com tablets mostram prêmios premium → Explicam processo rápido</div>
+              <div className="text-sm text-white/80">Promotores com tablets mostram prÃªmios premium â†’ Explicam processo rÃ¡pido</div>
             </div>
             <div className="text-xs text-white/70 font-mono">~30s</div>
           </div>
@@ -48,7 +48,7 @@ export function EnhancedProposal() {
             </div>
             <div className="flex-1">
               <div className="font-medium text-white mb-1">CADASTRO DIGITAL</div>
-              <div className="text-sm text-white/80">4 totens touchscreen 55″ → Dados de marketing + códigos únicos</div>
+              <div className="text-sm text-white/80">4 totens touchscreen 55â€³ â†’ Dados de marketing + cÃ³digos Ãºnicos</div>
             </div>
             <div className="text-xs text-white/70 font-mono">50s</div>
           </div>
@@ -63,8 +63,8 @@ export function EnhancedProposal() {
               3
             </div>
             <div className="flex-1">
-              <div className="font-medium text-white mb-1">TICKET + CONEXÃO</div>
-              <div className="text-sm text-white/80">Ticket impresso + código WhatsApp → Conexão digital imediata</div>
+              <div className="font-medium text-white mb-1">TICKET + CONEXÃƒO</div>
+              <div className="text-sm text-white/80">Ticket impresso + cÃ³digo WhatsApp â†’ ConexÃ£o digital imediata</div>
             </div>
             <div className="text-xs text-white/70 font-mono">5s</div>
           </div>
@@ -80,7 +80,7 @@ export function EnhancedProposal() {
             </div>
             <div className="flex-1">
               <div className="font-medium text-white mb-1">EXPECTATIVA CRESCENTE</div>
-              <div className="text-sm text-white/80">Cronômetros + vídeos promocionais → Antecipação para o giro</div>
+              <div className="text-sm text-white/80">CronÃ´metros + vÃ­deos promocionais â†’ AntecipaÃ§Ã£o para o giro</div>
             </div>
             <div className="text-xs text-white/70 font-mono">2min 30s</div>
           </div>
@@ -95,8 +95,8 @@ export function EnhancedProposal() {
               5
             </div>
             <div className="flex-1">
-              <div className="font-medium text-white mb-1">MOMENTO CLÍMAX</div>
-              <div className="text-sm text-white/80">Animação roleta 30s → Mecânica realística + anúncios dramáticos</div>
+              <div className="font-medium text-white mb-1">MOMENTO CLÃMAX</div>
+              <div className="text-sm text-white/80">AnimaÃ§Ã£o roleta 30s â†’ MecÃ¢nica realÃ­stica + anÃºncios dramÃ¡ticos</div>
             </div>
             <div className="text-xs text-white/70 font-mono">30s</div>
           </div>
@@ -112,7 +112,7 @@ export function EnhancedProposal() {
             </div>
             <div className="flex-1">
               <div className="font-medium text-white mb-1">RECOMPENSA GARANTIDA</div>
-              <div className="text-sm text-white/80">Vencedores no balcão + chaveiros para todos → Lembrança da marca</div>
+              <div className="text-sm text-white/80">Vencedores no balcÃ£o + chaveiros para todos â†’ LembranÃ§a da marca</div>
             </div>
             <div className="text-xs text-white/70 font-mono">1min 30s</div>
           </div>
@@ -121,8 +121,8 @@ export function EnhancedProposal() {
         {/* Summary Stats */}
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="p-4 bg-white/5 rounded-lg text-center">
-            <div className="text-2xl font-bold text-white mb-1">72×</div>
-            <div className="text-sm text-white/60">Repetições diárias</div>
+            <div className="text-2xl font-bold text-white mb-1">72Ã—</div>
+            <div className="text-sm text-white/60">RepetiÃ§Ãµes diÃ¡rias</div>
           </div>
           <div className="p-4 bg-white/5 rounded-lg text-center">
             <div className="text-2xl font-bold text-white mb-1">1.730+</div>
@@ -155,7 +155,7 @@ export function EnhancedProposal() {
 
         {/* Video Production Details */}
         <div className="mb-8">
-          <h4 className="text-lg font-medium mb-4 text-white/90">Produção de Conteúdo</h4>
+          <h4 className="text-lg font-medium mb-4 text-white/90">ProduÃ§Ã£o de ConteÃºdo</h4>
           <div className="space-y-3">
             {(t('videoProductionDetails') as string[]).map((detail, index) => (
               <div key={index} className="flex items-start p-4 bg-white/5 rounded-lg border border-white/20">
@@ -211,7 +211,7 @@ export function EnhancedProposal() {
         <StyledTable>
           <StyledTableHeader>
             <StyledTableRow>
-              <StyledTableCell isHeader>Horário</StyledTableCell>
+              <StyledTableCell isHeader>HorÃ¡rio</StyledTableCell>
               <StyledTableCell isHeader>Atividade</StyledTableCell>
               <StyledTableCell isHeader>Detalhes Operacionais</StyledTableCell>
             </StyledTableRow>
@@ -250,7 +250,7 @@ export function EnhancedProposal() {
           </div>
           <div className="p-4 bg-white/5 rounded-lg border border-white/20">
             <div className="text-lg font-bold text-white mb-1">6h</div>
-            <div className="text-sm text-white/70">Horas de operação ativa</div>
+            <div className="text-sm text-white/70">Horas de operaÃ§Ã£o ativa</div>
           </div>
         </div>
       </div>

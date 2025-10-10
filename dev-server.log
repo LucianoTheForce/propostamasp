@@ -1,0 +1,51 @@
+
+> my-v0-project@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+ ⚠ Port 3001 is in use, trying 3002 instead.
+  ▲ Next.js 14.2.16
+  - Local:        http://localhost:3002
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1612ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.4s (2531 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 3845ms
+ ✓ Compiled in 681ms (2517 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/e23549c5f8db1467.webpack.hot-update.json 404 in 3894ms
+ GET /_next/static/webpack/e23549c5f8db1467.webpack.hot-update.json 404 in 399ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 804ms (2529 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /_next/static/webpack/e23549c5f8db1467.webpack.hot-update.json 404 in 464ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /dashboard 200 in 977ms
+ GET / 200 in 1002ms
+ GET /_next/static/webpack/e23549c5f8db1467.webpack.hot-update.json 404 in 499ms
+ GET /dashboard 200 in 32ms
+ GET /faviconV2.png 404 in 15ms
+ ✓ Compiled in 225ms (1254 modules)
+ GET / 200 in 23ms
+ ✓ Compiled in 232ms (1254 modules)
+ ✓ Compiled in 227ms (1254 modules)
+ ✓ Compiled in 1551ms (2542 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /dashboard 200 in 108ms
+ GET / 200 in 259ms
+ GET / 200 in 258ms
+ GET / 200 in 39ms
+ ✓ Compiled in 412ms (1253 modules)
+ ✓ Compiled in 331ms (1253 modules)
+ ✓ Compiled in 150ms (1253 modules)
+ GET / 200 in 49ms
+ ✓ Compiled in 435ms (1253 modules)
+ ✓ Compiled in 253ms (1253 modules)
+npm error A complete log of this run can be found in: C:\Users\lucia\AppData\Local\npm-cache\_logs\2025-10-10T19_35_11_269Z-debug-0.log

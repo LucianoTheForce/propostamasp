@@ -692,7 +692,7 @@ footer {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(15, 15, 15, 0.95);
+  background-color: rgba(15, 15, 15, 0.12);
   z-index: -1;
 }
 
@@ -842,4 +842,19 @@ footer {
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(255, 255, 255, 0.15);
   transform: translateY(-2px);
+}
+
+.section-zoom {
+  background-size: 112%;
+  animation: section-zoom 18s ease-in-out infinite alternate;
+  transition: background-image 0.6s ease;
+}
+
+@keyframes section-zoom {
+  0% {
+    background-size: 108%;
+  }
+  100% {
+    background-size: 128%;
+  }
 }

@@ -4,8 +4,8 @@ import "./globals.css"
 import { LanguageProvider } from "@/contexts/language-context"
 
 export const metadata: Metadata = {
-  title: "MASP 2025 - Symbiotic Code | The Force",
-  description: "Experiências imersivas para Festa MASP 2025 - Symbiotic Code",
+  title: "Time Warp Brasil 2026 | The Force",
+  description: "Direção Técnica e Criativa de Palco para Time Warp Brasil 2026",
   generator: 'v0.dev',
   icons: {
     icon: [

@@ -193,7 +193,7 @@ export default function Home() {
                         }}
                       >
                         <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                          FESTA MASP 2025
+                          TIME WARP
                         </AdvancedTextAnimation>
                       </div>
                       <div
@@ -212,7 +212,7 @@ export default function Home() {
                           staggerChildren={0.03}
                           letterSpacing="-0.03em"
                         >
-                          SYMBIOTIC CODE
+                          BRASIL 2026
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -225,7 +225,7 @@ export default function Home() {
               <div className="h-1 w-24 bg-black/50 rounded-full mb-8"></div>
               <h3 className="heading-large font-sans text-pretty">
                 <AdvancedTextAnimation type="reveal" delay={0.8} letterSpacing="-0.02em">
-                  {language === 'pt' ? 'Conteúdos Imersivos para Experiências Transformadoras' : 'Immersive Content for Transformative Experiences'}
+                  {language === 'pt' ? 'Direção Técnica e Criativa de Palco' : 'Stage Technical and Creative Direction'}
                 </AdvancedTextAnimation>
               </h3>
             </div>
@@ -278,11 +278,11 @@ export default function Home() {
                 <DynamicText
                   prefix="©THE FORCE creates "
                   phrases={[
-                    "symbiotic digital experiences.",
-                    "living code narratives.",
-                    "ecological visual systems.",
-                    "immersive organism environments.",
-                    "self-organizing digital ecologies."
+                    "immersive stage experiences.",
+                    "minimal techno environments.",
+                    "geometric visual systems.",
+                    "rhythmic spatial narratives.",
+                    "integrated light architectures."
                   ]}
                   interval={5000}
                 />
@@ -296,13 +296,12 @@ export default function Home() {
                 THE FORCE é uma agência e produtora que combina arte e tecnologia para criar
                 narrativas expandidas e experiências surpreendentes. Especializamos em soluções inovadoras
                 de branding, experiências imersivas e desenvolvimento de conteúdo de ponta que transforma
-                espaços em ecossistemas digitais vivos.
+                espaços em ambientes memoráveis.
               </p>
               <p className="body-large font-sans max-w-3xl">
-                Para a Festa MASP 2025 - Symbiotic Code, criamos uma narrativa visual que explora
-                a simbiose entre sistemas ecológicos e código digital. Uma experiência onde fluxos de energia
-                e ciclos de matéria se manifestam através de projeções imersivas que transformam o espaço
-                em um organismo digital pulsante.
+                Para o Time Warp Brasil 2026, trazemos nossa expertise em direção técnica e criativa de palco,
+                criando um ambiente que respira com a música techno. Minimal, preciso, impactante. Uma experiência
+                visual integrada que se torna parte essencial do evento.
               </p>
             </div>
 
@@ -334,17 +333,17 @@ export default function Home() {
                 <div className="mb-6">
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      FESTA MASP
+                      TIME WARP
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.1} letterSpacing="-0.03em">
-                      2025
+                      BRASIL
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.2} letterSpacing="-0.03em">
-                      SYMBIOTIC CODE
+                      2026
                     </AdvancedTextAnimation>
                   </h2>
                 </div>
@@ -353,32 +352,32 @@ export default function Home() {
 
               <div className="md:col-span-8 section-content">
                 <div className="mb-8">
-                  <h3 className="heading-medium font-sans mb-4 text-white">{language === 'pt' ? 'Conceito da Experiência' : 'Experience Concept'}</h3>
+                  <h3 className="heading-medium font-sans mb-4 text-white">{language === 'pt' ? 'Conceito & Direção Criativa' : 'Concept & Creative Direction'}</h3>
                   <p className="text-white/80 body-medium font-sans mb-6">
                     {language === 'pt'
-                      ? 'Symbiotic Code explora a simbiose entre ecologia e sistemas digitais, transformando o MASP em um organismo digital vivo através de projeções imersivas que revelam fluxos de energia e ciclos de matéria.'
-                      : 'Symbiotic Code explores the symbiosis between ecology and digital systems, transforming MASP into a living digital organism through immersive projections that reveal energy flows and matter cycles.'}
+                      ? 'Definição de linguagem visual do palco alinhada à identidade Time Warp (minimal/techno, linhas limpas, geometria e ritmo). Criação de ambientes que transformam o espaço em uma experiência visual integrada.'
+                      : 'Definition of stage visual language aligned with Time Warp identity (minimal/techno, clean lines, geometry and rhythm). Creating environments that transform space into an integrated visual experience.'}
                   </p>
                   <ul className="space-y-3 text-white/80 body-medium font-sans">
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Video Mapping no Salão Principal - 4 minutos de narrativa visual' : 'Main Hall Video Mapping - 4 minutes of visual narrative'}</span>
+                      <span>{language === 'pt' ? 'Materiais, volumetria e elementos de destaque (totens, frames, estruturas modulares)' : 'Materials, volumetry and highlight elements (totems, frames, modular structures)'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Projeção nas 45 Mesas de Jantar - Superfícies vivas' : 'Projection on 45 Dining Tables - Living surfaces'}</span>
+                      <span>{language === 'pt' ? 'Moodboard e mapa de atmosferas por momento (warm-up / peak / closing)' : 'Moodboard and atmosphere map by moment (warm-up / peak / closing)'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Projeção Imersiva na Entrada e Escadas - Portal sensorial' : 'Immersive Entrance and Stairs Projection - Sensory portal'}</span>
+                      <span>{language === 'pt' ? 'Projeto técnico com plantas, vistas e implantação no espaço' : 'Technical project with plans, views and space implementation'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Redes miceliais e padrões fractais auto-organizados' : 'Mycelial networks and self-organizing fractal patterns'}</span>
+                      <span>{language === 'pt' ? 'Integração completa entre luz e vídeo' : 'Complete integration between light and video'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Layers geométricos dinâmicos reconfigurando o espaço' : 'Dynamic geometric layers reconfiguring space'}</span>
+                      <span>{language === 'pt' ? 'Lista de materiais e fornecedores indicados' : 'List of materials and indicated suppliers'}</span>
                     </li>
                   </ul>
                 </div>
@@ -388,15 +387,16 @@ export default function Home() {
 
             <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-6 section-content">
               <MagneticElement className="p-6 hover-lift">
-                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'CLIENTE' : 'CLIENT'}</div>
+                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'EVENTO' : 'EVENT'}</div>
                 <div className="heading-medium font-sans">
                   <AdvancedTextAnimation delay={0.2} type="slide" direction="up">
-                    FESTA MASP 2025
+                    TIME WARP BRASIL 2026
                   </AdvancedTextAnimation>
                 </div>
+                <div className="caption text-white/60 mt-1">{language === 'pt' ? '1 e 2 de maio' : 'May 1-2'}</div>
               </MagneticElement>
               <MagneticElement className="p-6 hover-lift">
-                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'AGÊNCIA/PRODUTORA' : 'AGENCY/PRODUCER'}</div>
+                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'DIREÇÃO CRIATIVA E TÉCNICA' : 'CREATIVE & TECHNICAL DIRECTION'}</div>
                 <div className="heading-medium font-sans">
                   <AdvancedTextAnimation delay={0.6} type="slide" direction="up">
                     THE FORCE.CC
@@ -435,28 +435,28 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'PROJETORES' : 'PROJECTORS'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? '70 projetores laser de alta performance (4.000 a 10.000 lumens)' : '70 high-performance laser projectors (4,000 to 10,000 lumens)'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'PROJETO TÉCNICO' : 'TECHNICAL PROJECT'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Desenhos técnicos: planta baixa, vista frontal, lateral e implantação' : 'Technical drawings: floor plan, front view, side view and implementation'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'SERVIDORES' : 'SERVERS'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? '20 servidores de mídia com software de mapeamento dedicado' : '20 media servers with dedicated mapping software'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'CONCEITO CRIATIVO' : 'CREATIVE CONCEPT'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Moodboard, narrativa e diretrizes visuais alinhadas à identidade Time Warp' : 'Moodboard, narrative and visual guidelines aligned with Time Warp identity'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'SOFTWARE' : 'SOFTWARE'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Resolume para salão principal, Watchout para áreas secundárias' : 'Resolume for main hall, Watchout for secondary areas'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'INTEGRAÇÃO LUZ & VÍDEO' : 'LIGHT & VIDEO INTEGRATION'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Compatibilização completa entre desenho de luz e vídeo' : 'Complete compatibility between light and video design'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'MAPEAMENTO' : 'MAPPING'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Calibração 3D precisa de todas as superfícies de projeção' : 'Precise 3D calibration of all projection surfaces'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'MATERIAIS' : 'MATERIALS'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Volumetria, elementos de destaque e estruturas modulares' : 'Volumetry, highlight elements and modular structures'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'SINCRONIZAÇÃO' : 'SYNCHRONIZATION'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Sistema de timecode para sincronização perfeita entre áreas' : 'Timecode system for perfect synchronization between areas'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'EQUIPE' : 'TEAM'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Direção criativa/técnica, designer CAD e assistência de produção' : 'Creative/technical direction, CAD designer and production assistance'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'BACKUP' : 'BACKUP'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Sistema redundante com failover automático para garantir continuidade' : 'Redundant system with automatic failover to ensure continuity'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'VIABILIDADE' : 'VIABILITY'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Lista de materiais e fornecedores indicados' : 'List of materials and indicated suppliers'}</p>
               </div>
             </div>
           </div>
@@ -503,12 +503,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Vídeo Mapping Salão Principal' : 'Main Hall Video Mapping'}
+                      {language === 'pt' ? 'Documento de Conceito' : 'Concept Document'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.2} type="fade">
-                      {language === 'pt' ? 'Transformação do salão em organismo digital pulsante com projeções nas testeiras e escadas' : 'Hall transformation into pulsating digital organism with projections on headers and stairs'}
+                      {language === 'pt' ? 'Moodboard, narrativa visual e diretrizes completas alinhadas à identidade Time Warp' : 'Moodboard, visual narrative and complete guidelines aligned with Time Warp identity'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -522,12 +522,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Projeção nas Mesas de Jantar' : 'Dining Tables Projection'}
+                      {language === 'pt' ? 'Desenhos Técnicos' : 'Technical Drawings'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.3} type="fade">
-                      {language === 'pt' ? '45 mesas se tornam superfícies vivas para narrativas visuais de organismos digitais' : '45 tables become living surfaces for visual narratives of digital organisms'}
+                      {language === 'pt' ? 'Plantas, vistas e implantação em PDF + DWG/DXF com cotas e pontos críticos' : 'Plans, views and implementation in PDF + DWG/DXF with measurements and critical points'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -541,12 +541,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Projeção Imersiva na Entrada' : 'Immersive Entrance Projection'}
+                      {language === 'pt' ? 'Mapa de Luz' : 'Light Map'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.4} type="fade">
-                      {language === 'pt' ? 'Corredor e escadas como portal para o universo simbiótico da festa' : 'Corridor and stairs as portal to the symbiotic universe of the party'}
+                      {language === 'pt' ? 'Compatibilização completa entre desenho de luz e diretrizes visuais do palco' : 'Complete compatibility between light design and stage visual guidelines'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -560,12 +560,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Conteúdo Autoral' : 'Original Content'}
+                      {language === 'pt' ? 'Guia de Vídeo' : 'Video Guide'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.5} type="fade">
-                      {language === 'pt' ? 'Criação de narrativa visual exclusiva explorando simbiose entre ecologia e código digital' : 'Creation of exclusive visual narrative exploring symbiosis between ecology and digital code'}
+                      {language === 'pt' ? 'Referências de conteúdo e alinhamento com operação de vídeo do evento' : 'Content references and alignment with event video operation'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -598,12 +598,38 @@ export default function Home() {
               </div>
               <div className="body-large text-white/80 font-sans text-pretty max-w-3xl">
                 <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                  {language === 'pt' ? 'Conteúdos imersivos para transformar o MASP em um ecossistema digital vivo através de projeções mapeadas' : 'Immersive content to transform MASP into a living digital ecosystem through mapped projections'}
+                  {language === 'pt' ? 'Direção técnica e criativa para o palco Time Warp Brasil 2026' : 'Technical and creative direction for Time Warp Brasil 2026 stage'}
                 </AdvancedTextAnimation>
               </div>
             </div>
 
-            <TheForceProposal />
+            {/* Investment Summary */}
+            <div className="w-full max-w-6xl mx-auto">
+              <motion.div
+                className="mb-12 p-8 border border-white/20"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center pb-4 border-b border-white/10">
+                    <span className="body-medium font-sans">{language === 'pt' ? 'Valor total do projeto' : 'Total project value'}</span>
+                    <span className="heading-small font-sans font-bold">R$ 50.000,00</span>
+                  </div>
+                  <div className="pt-4 space-y-2">
+                    <p className="body-small text-white/70 font-sans">
+                      • {language === 'pt' ? 'Impostos inclusos' : 'Taxes included'}
+                    </p>
+                    <p className="body-small text-white/70 font-sans">
+                      • {language === 'pt' ? 'Forma de pagamento: 50% na aprovação / 50% na entrega final' : 'Payment terms: 50% upon approval / 50% upon final delivery'}
+                    </p>
+                    <p className="body-small text-white/70 font-sans">
+                      • {language === 'pt' ? 'Vigência da proposta: 7 dias a partir da data de envio' : 'Proposal validity: 7 days from send date'}
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
           </div>
         </section>
 
@@ -629,7 +655,7 @@ export default function Home() {
                   </div>
                   <div className="body-medium text-white/80 mb-6 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" type="fade">
-                      {language === 'pt' ? 'Processo estruturado para execução das projeções imersivas' : 'Structured process for immersive projections execution'}
+                      {language === 'pt' ? 'Escopo do projeto de direção técnica e criativa' : 'Technical and creative direction project scope'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="space-y-4 mb-6">
@@ -637,7 +663,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">01</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.1} type="fade">
-                          {language === 'pt' ? 'Aprovação do conceito criativo e narrativa visual' : 'Creative concept and visual narrative approval'}
+                          {language === 'pt' ? 'Conceito criativo e moodboard com narrativa visual' : 'Creative concept and moodboard with visual narrative'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -645,7 +671,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">02</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.2} type="fade">
-                          {language === 'pt' ? 'Visita técnica e mapeamento dos espaços' : 'Technical visit and space mapping'}
+                          {language === 'pt' ? 'Projeto técnico de palco com plantas e vistas' : 'Technical stage project with plans and views'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -653,7 +679,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">03</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.3} type="fade">
-                          {language === 'pt' ? 'Produção dos conteúdos e animações' : 'Content and animation production'}
+                          {language === 'pt' ? 'Integração de luz e vídeo com operação do evento' : 'Light and video integration with event operation'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -661,7 +687,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">04</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.4} type="fade">
-                          {language === 'pt' ? 'Instalação técnica e configuração dos equipamentos' : 'Technical installation and equipment setup'}
+                          {language === 'pt' ? 'Lista de materiais e fornecedores indicados' : 'List of materials and indicated suppliers'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -669,7 +695,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">05</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.5} type="fade">
-                          {language === 'pt' ? 'Testes e operação durante o evento' : 'Testing and operation during the event'}
+                          {language === 'pt' ? 'Equipe: direção criativa/técnica, designer CAD e assistência' : 'Team: creative/technical direction, CAD designer and assistance'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -722,7 +748,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">01</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.1} type="fade">
-                          {language === 'pt' ? 'Validade: 10 dias a partir da data de apresentação' : 'Validity: 10 days from presentation date'}
+                          {language === 'pt' ? 'Validade: 7 dias a partir da data de envio' : 'Validity: 7 days from send date'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -730,7 +756,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">02</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.2} type="fade">
-                          {language === 'pt' ? 'Pagamento: 50% na contratação • 30% início produção • 20% na entrega final' : 'Payment: 50% upon contracting • 30% production start • 20% upon final delivery'}
+                          {language === 'pt' ? 'Pagamento: 50% na aprovação • 50% na entrega final' : 'Payment: 50% upon approval • 50% upon final delivery'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -738,7 +764,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">03</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.3} type="fade">
-                          {language === 'pt' ? 'Fase 1 — Pré-produção: mapeamento 3D dos espaços e desenvolvimento conceitual' : 'Phase 1 — Pre-production: 3D mapping of spaces and conceptual development'}
+                          {language === 'pt' ? 'NÃO INCLUI: Locações, operação técnica, estruturas, transporte, hospedagem, materiais cenográficos' : 'NOT INCLUDED: Rentals, technical operation, structures, transportation, accommodation, scenographic materials'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -746,7 +772,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">04</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.4} type="fade">
-                          {language === 'pt' ? 'Produção: 30 dias para criação dos conteúdos' : 'Production: 30 days for content creation'}
+                          {language === 'pt' ? 'Propriedade Intelectual: Projetos permanecem da The Force.cc até quitação total' : 'Intellectual Property: Projects remain with The Force.cc until full payment'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -754,7 +780,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">05</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.5} type="fade">
-                          {language === 'pt' ? 'Diferenciais: Conteúdo autoral exclusivo • Integração narrativa entre ambientes • Experiência imersiva completa' : 'Differentiators: Exclusive original content • Narrative integration between environments • Complete immersive experience'}
+                          {language === 'pt' ? 'Após pagamento: Licença de uso para Time Warp Brasil 2026, não exclusiva e intransferível' : 'After payment: Usage license for Time Warp Brasil 2026, non-exclusive and non-transferable'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -810,10 +836,10 @@ export default function Home() {
                         <div className="body-medium font-mono number-accent">{language === 'pt' ? 'São Paulo, Brasil' : 'São Paulo, Brazil'}</div>
                       </div>
                       <div>
-                        <div className="caption text-white/60 mb-1">Client</div>
+                        <div className="caption text-white/60 mb-1">Event</div>
                         <div className="body-large font-sans">
                           <AdvancedTextAnimation delay={0.4} fontWeight="bold" type="fade">
-                            FESTA MASP 2025
+                            TIME WARP BRASIL 2026
                           </AdvancedTextAnimation>
                         </div>
                       </div>
@@ -828,7 +854,7 @@ export default function Home() {
                       <div className="pt-4">
                         <button
                           onClick={() => {
-                            const message = encodeURIComponent(language === 'pt' ? "Festa MASP 2025 Symbiotic Code - Proposta aprovada! Vamos começar!" : "MASP Party 2025 Symbiotic Code - Proposal approved! Let's get started!")
+                            const message = encodeURIComponent(language === 'pt' ? "Time Warp Brasil 2026 - Proposta aprovada! Vamos começar!" : "Time Warp Brasil 2026 - Proposal approved! Let's get started!")
                             window.open(`https://wa.me/5511986243000?text=${message}`, '_blank')
                           }}
                           className="button-2025 w-full uppercase tracking-widest text-xs"

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "timewarp-brasil-2026",
+    "slug": "timewarp-brasil-2026",
+    "title": "Direção Técnica e Criativa de Palco",
+    "client": "Time Warp Brasil 2026",
+    "status": "draft",
+    "createdAt": "2025-10-10T19:52:00.000Z",
+    "updatedAt": "2025-10-10T19:52:00.000Z",
+    "hero": {
+      "headline": "Time Warp Brasil 2026",
+      "subheadline": "Direção Técnica e Criativa de Palco • 1 e 2 de maio • R$ 50.000,00",
+      "ctaLabel": "Proposta The Force.cc"
+    },
+    "sections": [
+      {
+        "id": "escopo",
+        "title": "1) Escopo",
+        "body": "Direção técnica e criativa do palco, contemplando concepção estética, viabilidade técnica e integração com luz, som e vídeo do evento.\n\n1.1 Conceito & Direção Criativa\n\nDefinição de linguagem visual do palco alinhada à identidade Time Warp (minimal/techno, linhas limpas, geometria e ritmo).\n\nPropostas de materiais, volumetria e elementos de destaque (totens, frames, telas ou estruturas modulares).\n\nReferências visuais (moodboard) e mapa de atmosferas por momento (warm-up / peak / closing).\n\n1.2 Projeto de Palco (Técnico)\n\nDesenhos técnicos: planta baixa, vista frontal, vista lateral e indicação de áreas de circulação.\n\nImplantação no espaço com cotas e pontos críticos (backstage, house mix, passagens).\n\nCompatibilização com telões/LEDs (se houver) e com o rider de som/iluminação.\n\n1.3 Integração Luz & Vídeo\n\nCompatibilização geral entre desenho de luz e diretrizes visuais do palco.\n\nAlinhamento com operação de luz/vídeo do evento.\n\n1.4 Viabilidade e Operação\n\nLista de materiais e fornecedores indicados (sem contratação inclusa)."
+      },
+      {
+        "id": "entregaveis",
+        "title": "2) Entregáveis",
+        "body": "Documento de conceito com moodboard, narrativa e diretrizes.\n\nDesenhos técnicos (PDF + DWG/DXF) — planta, vistas e implantação.\n\nMapa de luz (PDF).\n\nGuia de vídeo (PDF) com referências de conteúdo."
+      },
+      {
+        "id": "equipe",
+        "title": "3) Equipe",
+        "body": "Direção Criativa e Técnica (1)\n\nDesigner Técnico CAD (1)\n\nAssistência de Produção/Viabilidade (1)"
+      },
+      {
+        "id": "valor",
+        "title": "4) Valor e Condições Comerciais",
+        "body": "Valor total do projeto: R$ 50.000,00 (cinquenta mil reais) — impostos inclusos.\n\nForma de pagamento: 50% na aprovação / 50% na entrega final.\n\nVigência da proposta: 7 dias a partir da data acima."
+      },
+      {
+        "id": "premissas",
+        "title": "5) Premissas e Itens Não Inclusos",
+        "body": "Não inclui: locações/compra de equipamentos, operação técnica em evento, estruturas, transporte, hospedagem, diárias de equipe ou taxas de venue.\n\nNão inclui: produção física, materiais cenográficos, seguros, fretes, energia, geradores, rigging, P.E. ou ART.\n\nConsidera-se que a organização fornecerá plantas cotadas do local, restrições de carga e riders atualizados de luz/som/vídeo.\n\nMudanças de escopo relevantes (layout do espaço, riders, prazos) podem implicar revisão de custo e cronograma."
+      },
+      {
+        "id": "propriedade",
+        "title": "6) Propriedade Intelectual",
+        "body": "Projetos e artes permanecem da The Force.cc até a quitação total.\n\nApós o pagamento, o cliente obtém licença de uso para o evento Time Warp Brasil 2026, não exclusiva e intransferível."
+      },
+      {
+        "id": "assinatura",
+        "title": "7) Assinatura",
+        "body": "The Force.cc\nNome: __________________________\nCargo: __________________________\n\nTime Warp Brasil\nNome: __________________________\nCargo: __________________________"
+      }
+    ],
+    "metadata": {
+      "eventDate": "2026-05-01",
+      "value": 50000,
+      "currency": "BRL",
+      "proposer": "The Force.cc"
+    }
+  }
+]
