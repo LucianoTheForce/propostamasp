@@ -193,7 +193,7 @@ export default function Home() {
                         }}
                       >
                         <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                          ULTRAGAZ
+                          UBER MOTO IA
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -206,7 +206,7 @@ export default function Home() {
               <div className="h-1 w-24 bg-black/50 rounded-full mb-8"></div>
               <h3 className="heading-large font-sans text-pretty">
                 <AdvancedTextAnimation type="reveal" delay={0.8} letterSpacing="-0.02em">
-                  {language === 'pt' ? 'Evolução dos Mascotes' : 'Mascots Evolution'}
+                  {language === 'pt' ? 'Se essa música fosse minha' : 'If this song were mine'}
                 </AdvancedTextAnimation>
               </h3>
             </div>
@@ -259,11 +259,11 @@ export default function Home() {
                 <DynamicText
                   prefix="©THE FORCE creates "
                   phrases={[
-                    "proprietary character platforms.",
-                    "intelligent mascot systems.",
-                    "scalable creative tools.",
-                    "premium digital experiences.",
-                    "branded character evolution."
+                    "AI-powered musical experiences.",
+                    "emotional digital journeys.",
+                    "personalized sonic narratives.",
+                    "innovative mobility solutions.",
+                    "cultural technology activations."
                   ]}
                   interval={5000}
                 />
@@ -275,14 +275,14 @@ export default function Home() {
             <div className="mt-[40vh] mb-8 relative z-10">
               <p className="body-large font-sans max-w-3xl mb-4">
                 THE FORCE é uma agência e produtora que combina arte e tecnologia para criar
-                narrativas expandidas e experiências surpreendentes. Especializamos em soluções inovadoras
-                de branding, plataformas proprietárias e desenvolvimento de ferramentas criativas que transformam
-                a gestão de personagens em experiências memoráveis.
+                narrativas expandidas e experiências surpreendentes. Especializamos em experiências interativas
+                que unem IA, design e narrativa sensorial para transformar dados em emoção.
               </p>
               <p className="body-large font-sans max-w-3xl">
-                Para a Ultragaz, em parceria com a Rastro, desenvolvemos uma plataforma proprietária completa
-                para criação, customização e gestão dos mascotes Ultrinho e Ully. Uma solução premium que combina
-                refinamento visual, interface intuitiva e tecnologia escalável para a nova era de comunicação da marca.
+                Para Uber Moto, em parceria com a Wieden + Kennedy, desenvolvemos "Se essa música fosse minha":
+                uma experiência digital onde cada viagem se transforma em uma faixa musical única, gerada com
+                inteligência artificial e interpretada por Xamã. Transformamos resumos de corrida em objetos emocionais
+                e compartilháveis.
               </p>
             </div>
 
@@ -314,17 +314,17 @@ export default function Home() {
                 <div className="mb-6">
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} letterSpacing="-0.03em">
-                      EVOLUÇÃO
+                      UBER MOTO IA
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.1} letterSpacing="-0.03em">
-                      MASCOTES
+                      SE ESSA MÚSICA
                     </AdvancedTextAnimation>
                   </h2>
                   <h2 className="font-sans text-2xl md:text-3xl leading-tight tracking-tight font-bold">
                     <AdvancedTextAnimation type="letter" staggerChildren={0.03} delay={0.2} letterSpacing="-0.03em">
-                      ULTRAGAZ
+                      FOSSE MINHA
                     </AdvancedTextAnimation>
                   </h2>
                 </div>
@@ -336,29 +336,29 @@ export default function Home() {
                   <h3 className="heading-medium font-sans mb-4 text-white">{language === 'pt' ? 'Contexto & Proposta' : 'Context & Proposal'}</h3>
                   <p className="text-white/80 body-medium font-sans mb-6">
                     {language === 'pt'
-                      ? 'A Ultragaz entra em uma nova era de comunicação com a evolução dos mascotes Ultrinho e Ully. Em parceria com a agência Rastro, The Force desenvolve uma plataforma proprietária completa para criação, customização e gestão dos personagens.'
-                      : 'Ultragaz enters a new era of communication with the evolution of mascots Ultrinho and Ully. In partnership with Rastro agency, The Force develops a complete proprietary platform for character creation, customization and management.'}
+                      ? 'Experiência digital onde cada viagem de Uber Moto se transforma em uma faixa musical única, gerada com IA e interpretada por Xamã. Em parceria com W+K, The Force desenvolve a solução técnico-criativa completa que transforma dados de corrida em objetos emocionais e compartilháveis.'
+                      : 'Digital experience where each Uber Moto ride transforms into a unique music track, generated with AI and performed by Xamã. In partnership with W+K, The Force develops the complete technical-creative solution that transforms ride data into emotional and shareable objects.'}
                   </p>
                   <ul className="space-y-3 text-white/80 body-medium font-sans">
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Refinamento visual e integração completa dos personagens' : 'Visual refinement and complete character integration'}</span>
+                      <span>{language === 'pt' ? 'Sistema de geração musical baseado em dados reais de viagem' : 'Musical generation system based on real trip data'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Interface proprietária premium com modo escuro sofisticado' : 'Premium proprietary interface with sophisticated dark mode'}</span>
+                      <span>{language === 'pt' ? 'IA proprietária que traduz parâmetros em trilhas sonoras únicas' : 'Proprietary AI that translates parameters into unique soundtracks'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Biblioteca de variações e histórico visual' : 'Variation library and visual history'}</span>
+                      <span>{language === 'pt' ? 'Experiência personalizada e compartilhável' : 'Personalized and shareable experience'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Documentação completa e treinamento' : 'Complete documentation and training'}</span>
+                      <span>{language === 'pt' ? 'Integração com fluxo de corrida Uber Moto' : 'Integration with Uber Moto ride flow'}</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-white mr-3 mt-1">+</span>
-                      <span>{language === 'pt' ? 'Suporte inicial de 2 meses' : '2-month initial support'}</span>
+                      <span>{language === 'pt' ? 'Ambiente digital de acesso e distribuição' : 'Digital environment for access and distribution'}</span>
                     </li>
                   </ul>
                 </div>
@@ -371,16 +371,16 @@ export default function Home() {
                 <div className="caption text-white/60 mb-2">{language === 'pt' ? 'CLIENTE' : 'CLIENT'}</div>
                 <div className="heading-medium font-sans">
                   <AdvancedTextAnimation delay={0.2} type="slide" direction="up">
-                    ULTRAGAZ
+                    UBER MOTO
                   </AdvancedTextAnimation>
                 </div>
-                <div className="caption text-white/60 mt-1">{language === 'pt' ? 'Evolução dos Mascotes' : 'Mascots Evolution'}</div>
+                <div className="caption text-white/60 mt-1">{language === 'pt' ? 'Se essa música fosse minha' : 'If this song were mine'}</div>
               </MagneticElement>
               <MagneticElement className="p-6 hover-lift">
-                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'PLATAFORMA & DESENVOLVIMENTO' : 'PLATFORM & DEVELOPMENT'}</div>
+                <div className="caption text-white/60 mb-2">{language === 'pt' ? 'AGÊNCIA & DESENVOLVIMENTO' : 'AGENCY & DEVELOPMENT'}</div>
                 <div className="heading-medium font-sans">
                   <AdvancedTextAnimation delay={0.6} type="slide" direction="up">
-                    THE FORCE + RASTRO
+                    W+K + THE FORCE
                   </AdvancedTextAnimation>
                 </div>
                 <div className="caption text-white/60 mt-1">{t('location')}</div>
@@ -416,28 +416,28 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'VISUAL SOFISTICADO' : 'SOPHISTICATED VISUAL'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Dark mode premium com tipografia refinada e navegação lateral intuitiva' : 'Premium dark mode with refined typography and intuitive side navigation'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'GERAÇÃO MUSICAL IA' : 'AI MUSIC GENERATION'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Sistema proprietário que traduz dados de viagem em trilhas sonoras únicas' : 'Proprietary system that translates trip data into unique soundtracks'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'INTERAÇÃO FLUIDA' : 'FLUID INTERACTION'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Controle instantâneo de poses e expressões com feedback visual em tempo real' : 'Instant pose and expression control with real-time visual feedback'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'INTEGRAÇÃO UBER' : 'UBER INTEGRATION'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Conexão nativa com fluxo de corrida e dados em tempo real' : 'Native connection with ride flow and real-time data'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'PERFORMANCE ESTÁVEL' : 'STABLE PERFORMANCE'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Arquitetura escalável para gestão eficiente dos personagens' : 'Scalable architecture for efficient character management'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'EXPERIÊNCIA PERSONALIZADA' : 'PERSONALIZED EXPERIENCE'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Cada viagem gera uma música única baseada em parâmetros reais' : 'Each trip generates a unique song based on real parameters'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'BIBLIOTECA COMPLETA' : 'COMPLETE LIBRARY'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Sistema de variações e histórico visual para controle criativo total' : 'Variation system and visual history for total creative control'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'COMPARTILHAMENTO SOCIAL' : 'SOCIAL SHARING'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Ambiente digital otimizado para distribuição e engajamento' : 'Digital environment optimized for distribution and engagement'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'DOCUMENTAÇÃO' : 'DOCUMENTATION'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Treinamento completo e documentação técnica para autonomia da equipe' : 'Complete training and technical documentation for team autonomy'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'DIREÇÃO CRIATIVA' : 'CREATIVE DIRECTION'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Roteiro sonoro integrado com identidade Uber Moto e voz de Xamã' : 'Sound script integrated with Uber Moto identity and Xamã voice'}</p>
               </div>
               <div className="p-6 bg-white/5 rounded-lg hover:bg-white/10 transition">
-                <h4 className="font-bold mb-3">{language === 'pt' ? 'DESIGN PREMIUM' : 'PREMIUM DESIGN'}</h4>
-                <p className="text-sm text-white/70">{language === 'pt' ? 'Produto refinado que reflete a excelência da marca Ultragaz' : 'Refined product that reflects Ultragaz brand excellence'}</p>
+                <h4 className="font-bold mb-3">{language === 'pt' ? 'ESCALABILIDADE' : 'SCALABILITY'}</h4>
+                <p className="text-sm text-white/70">{language === 'pt' ? 'Infraestrutura preparada para volume massivo de gerações' : 'Infrastructure ready for massive generation volume'}</p>
               </div>
             </div>
           </div>
@@ -484,12 +484,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Plataforma Proprietária' : 'Proprietary Platform'}
+                      {language === 'pt' ? 'Sistema IA Musical' : 'AI Musical System'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.2} type="fade">
-                      {language === 'pt' ? 'Interface completa para criação, customização e gestão dos mascotes Ultrinho e Ully' : 'Complete interface for Ultrinho and Ully mascots creation, customization and management'}
+                      {language === 'pt' ? 'Geração musical baseada em dados reais: trajeto, duração, ritmo urbano, clima' : 'Musical generation based on real data: route, duration, urban rhythm, weather'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -503,12 +503,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Refinamento Visual' : 'Visual Refinement'}
+                      {language === 'pt' ? 'Direção Criativa' : 'Creative Direction'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.3} type="fade">
-                      {language === 'pt' ? 'Evolução e integração completa dos personagens com a identidade Ultragaz' : 'Complete character evolution and integration with Ultragaz identity'}
+                      {language === 'pt' ? 'Design da experiência e roteiro sonoro integrado com identidade Uber Moto' : 'Experience design and sound script integrated with Uber Moto identity'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -522,12 +522,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Treinamento & Suporte' : 'Training & Support'}
+                      {language === 'pt' ? 'Ambiente Digital' : 'Digital Environment'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.4} type="fade">
-                      {language === 'pt' ? 'Documentação completa e suporte inicial de 2 meses para autonomia total' : 'Complete documentation and 2-month initial support for total autonomy'}
+                      {language === 'pt' ? 'Plataforma de acesso, reprodução e compartilhamento das músicas geradas' : 'Platform for access, playback and sharing of generated songs'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -541,12 +541,12 @@ export default function Home() {
                       type="slide"
                       direction="up"
                     >
-                      {language === 'pt' ? 'Arquitetura Escalável' : 'Scalable Architecture'}
+                      {language === 'pt' ? 'Implementação Completa' : 'Complete Implementation'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="body-medium text-white/70 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" delay={0.5} type="fade">
-                      {language === 'pt' ? 'Sistema robusto preparado para crescimento e evolução contínua' : 'Robust system prepared for continuous growth and evolution'}
+                      {language === 'pt' ? 'Testes piloto, lançamento e acompanhamento técnico-criativo' : 'Pilot tests, launch and technical-creative follow-up'}
                     </AdvancedTextAnimation>
                   </div>
                 </MagneticElement>
@@ -579,7 +579,7 @@ export default function Home() {
               </div>
               <div className="body-large text-white/80 font-sans text-pretty max-w-3xl">
                 <AdvancedTextAnimation tag="p" type="slide" direction="up">
-                  {language === 'pt' ? 'Plataforma proprietária completa para evolução dos mascotes Ultragaz' : 'Complete proprietary platform for Ultragaz mascots evolution'}
+                  {language === 'pt' ? 'Desenvolvimento completo da experiência musical com IA para Uber Moto' : 'Complete development of AI musical experience for Uber Moto'}
                 </AdvancedTextAnimation>
               </div>
             </div>
@@ -595,23 +595,17 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center pb-4 border-b border-white/10">
                     <span className="body-medium font-sans">{language === 'pt' ? 'Valor total do projeto' : 'Total project value'}</span>
-                    <span className="heading-small font-sans font-bold">R$ 520.000,00</span>
+                    <span className="display-small font-sans font-bold">R$ 425.000,00</span>
                   </div>
                   <div className="pt-4 space-y-2">
                     <p className="body-small text-white/70 font-sans">
-                      • {language === 'pt' ? 'Impostos inclusos' : 'Taxes included'}
+                      • {language === 'pt' ? 'Inclui concepção criativa, desenvolvimento completo e gestão executiva' : 'Includes creative conception, complete development and executive management'}
                     </p>
                     <p className="body-small text-white/70 font-sans">
-                      • {language === 'pt' ? 'Forma de pagamento: 50% na aprovação / 50% na entrega final' : 'Payment terms: 50% upon approval / 50% upon final delivery'}
+                      • {language === 'pt' ? 'Custo único por geração a ser definido após desenvolvimento' : 'Single generation cost to be defined after development'}
                     </p>
                     <p className="body-small text-white/70 font-sans">
-                      • {language === 'pt' ? 'Vigência da proposta: 30 dias a partir da data de envio' : 'Proposal validity: 30 days from send date'}
-                    </p>
-                    <p className="body-small text-white/70 font-sans">
-                      • {language === 'pt' ? 'Prazo: 45 dias a partir da aprovação da ARP' : 'Timeline: 45 days from ARP approval'}
-                    </p>
-                    <p className="body-small text-white/70 font-sans">
-                      • {language === 'pt' ? 'Plus: Custos operacionais mensais baseados em volume de uso' : 'Plus: Monthly operational costs based on usage volume'}
+                      • {language === 'pt' ? 'Inclui despesas de servidores, APIs e infraestrutura operacional' : 'Includes server, API and operational infrastructure expenses'}
                     </p>
                   </div>
                 </div>
@@ -642,7 +636,7 @@ export default function Home() {
                   </div>
                   <div className="body-medium text-white/80 mb-6 font-sans text-pretty">
                     <AdvancedTextAnimation tag="p" type="fade">
-                      {language === 'pt' ? 'Escopo da plataforma proprietária de mascotes' : 'Proprietary mascot platform scope'}
+                      {language === 'pt' ? 'Fases do desenvolvimento da experiência musical IA' : 'Development phases of AI musical experience'}
                     </AdvancedTextAnimation>
                   </div>
                   <div className="space-y-4 mb-6">
@@ -650,7 +644,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">01</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.1} type="fade">
-                          {language === 'pt' ? 'Plataforma web completa para criação e gestão de mascotes' : 'Complete web platform for mascot creation and management'}
+                          {language === 'pt' ? 'Concepção criativa e definição de parâmetros musicais' : 'Creative conception and musical parameter definition'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -658,7 +652,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">02</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.2} type="fade">
-                          {language === 'pt' ? 'Interface premium com dark mode e navegação intuitiva' : 'Premium interface with dark mode and intuitive navigation'}
+                          {language === 'pt' ? 'Desenvolvimento do sistema IA de geração musical' : 'Development of AI music generation system'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -666,7 +660,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">03</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.3} type="fade">
-                          {language === 'pt' ? 'Sistema de variações e biblioteca de expressões/poses' : 'Variation system and expression/pose library'}
+                          {language === 'pt' ? 'Integração com fluxo Uber Moto e testes piloto' : 'Integration with Uber Moto flow and pilot tests'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -674,7 +668,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">04</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.4} type="fade">
-                          {language === 'pt' ? 'Documentação técnica e treinamento completo da equipe' : 'Technical documentation and complete team training'}
+                          {language === 'pt' ? 'Criação do ambiente digital de acesso e compartilhamento' : 'Creation of digital environment for access and sharing'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -682,7 +676,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono mr-4">05</div>
                       <div className="body-medium text-white/80 font-sans">
                         <AdvancedTextAnimation delay={0.5} type="fade">
-                          {language === 'pt' ? 'Suporte inicial de 2 meses e arquitetura escalável' : '2-month initial support and scalable architecture'}
+                          {language === 'pt' ? 'Lançamento completo e acompanhamento técnico-criativo' : 'Full launch and technical-creative follow-up'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
@@ -826,7 +820,7 @@ export default function Home() {
                         <div className="caption text-white/60 mb-1">{language === 'pt' ? 'Projeto' : 'Project'}</div>
                         <div className="body-large font-sans">
                           <AdvancedTextAnimation delay={0.4} fontWeight="bold" type="fade">
-                            {language === 'pt' ? 'ULTRAGAZ - EVOLUÇÃO DOS MASCOTES' : 'ULTRAGAZ - MASCOTS EVOLUTION'}
+                            {language === 'pt' ? 'UBER MOTO - SE ESSA MÚSICA FOSSE MINHA' : 'UBER MOTO - IF THIS SONG WERE MINE'}
                           </AdvancedTextAnimation>
                         </div>
                       </div>
@@ -841,7 +835,7 @@ export default function Home() {
                       <div className="pt-4">
                         <button
                           onClick={() => {
-                            const message = encodeURIComponent(language === 'pt' ? "Ultragaz Mascotes - Proposta aprovada! Vamos começar!" : "Ultragaz Mascots - Proposal approved! Let's get started!")
+                            const message = encodeURIComponent(language === 'pt' ? "Uber Moto IA - Proposta aprovada! Vamos começar!" : "Uber Moto AI - Proposal approved! Let's get started!")
                             window.open(`https://wa.me/5511986243000?text=${message}`, '_blank')
                           }}
                           className="button-2025 w-full uppercase tracking-widest text-xs"
