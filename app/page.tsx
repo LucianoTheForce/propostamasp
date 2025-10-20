@@ -726,7 +726,7 @@ export default function Home() {
                       <div className="caption text-white/60 mt-1 flex-shrink-0 font-mono">01</div>
                       <div className="body-medium text-white/80 font-sans text-pretty">
                         <AdvancedTextAnimation tag="p" delay={0.1} type="fade">
-                          {language === 'pt' ? 'Validade: 30 dias a partir da data de envio' : 'Validity: 30 days from send date'}
+                          {language === 'pt' ? 'Validade: 7 dias a partir da data de envio' : 'Validity: 7 days from send date'}
                         </AdvancedTextAnimation>
                       </div>
                     </div>
