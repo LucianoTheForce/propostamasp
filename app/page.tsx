@@ -602,10 +602,7 @@ export default function Home() {
                       • {language === 'pt' ? 'Inclui concepção criativa, desenvolvimento completo e gestão executiva' : 'Includes creative conception, complete development and executive management'}
                     </p>
                     <p className="body-small text-white/70 font-sans">
-                      • {language === 'pt' ? 'Custo único por geração a ser definido após desenvolvimento' : 'Single generation cost to be defined after development'}
-                    </p>
-                    <p className="body-small text-white/70 font-sans">
-                      • {language === 'pt' ? 'Inclui despesas de servidores, APIs e infraestrutura operacional' : 'Includes server, API and operational infrastructure expenses'}
+                      • {language === 'pt' ? 'Custo único por geração (servidores, APIs e infraestrutura) definido por volume de uso' : 'Single generation cost (servers, APIs and infrastructure) defined by usage volume'}
                     </p>
                   </div>
                 </div>
